@@ -610,12 +610,6 @@ N_QuestComp2:
 	close;
 }
 //6-3;
-xmas,144,136,6	script	Chirach	48,{
-	if (six_qset == 3 && countitem(1083) > 0) goto N_QuestComp;
-	if (six_qset == 3) goto N_QuestStart;
-	mes "[Chirach]";
-	mes "Welcome.";
-	close;
 N_QuestComp:
 	mes "[Chirach]";
 	mes "Thank you for this delivery.";
