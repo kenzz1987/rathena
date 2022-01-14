@@ -4722,7 +4722,7 @@ Body:
       - Item: Evil_Horn
         Rate: 250
       - Item: Oridecon
-        Rate: 32
+        Rate: 300
       - Item: Halberd_
         Rate: 1
       - Item: Yggdrasilberry
@@ -16653,7 +16653,7 @@ Body:
       - Item: Red_Herb
         Rate: 250
       - Item: Blue_Herb
-        Rate: 500
+        Rate: 10000
       - Item: Yellow_Herb
         Rate: 1250
       - Item: Green_Herb

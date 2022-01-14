@@ -100,7 +100,7 @@ mora,88,89,5	script	Keeper of Secrets#pa082	495,{
 			break;
 		}
 		set .@item, .@items[rand(getarraysize(.@items))];
-		delitem 6380,10; //Mora_Coin
+		delitem 6380,1; //Mora_Coin
 		getitem .@item,1;
 		mes "[Artifice]";
 		mes "You have obtained ^aa00aa"+getitemname(.@item)+"^000000. May the Blessing of the Light be with you.";
@@ -215,7 +215,7 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 			close;
 		}
 		specialeffect2 EF_REPAIRWEAPON;
-		delitem 6380,2; //Mora_Coin
+		delitem 6380,1; //Mora_Coin
 		delitem .@item,1;
 		switch(.@enchant_type) {
 		case 1:
@@ -385,7 +385,7 @@ mora,104,76,4	script	Guardian of Artifacts#p	495,{
 		close;
 	}
 	set .@item, .@items[rand(getarraysize(.@items))];
-	delitem 6380,10; //Mora_Coin
+	delitem 6380,1; //Mora_Coin
 	getitem .@item,1;
 	mes "[Guardian of Artifacts]";
 	mes "I have ^aa00aa"+getitemname(.@item)+"^000000 available today. I hope "+((.@plural)?"they":"it")+" will come in handy...";
@@ -464,7 +464,7 @@ mora,99,93,5	script	Artifact Crafter#pa0829	495,{
 		close;
 	}
 	specialeffect2 EF_REPAIRWEAPON;
-	delitem 6380,2; //Mora_Coin
+	delitem 6380,1; //Mora_Coin
 	delitem .@item,1;
 	switch(.@enchant_type) {
 	case 1:
@@ -588,7 +588,7 @@ mora,152,97,5	script	Guardian of Power#pa082	515,{
 		mes "Didn't I tell you to bring the correct amount of Mora Coins?";
 		close;
 	}
-	delitem 6380,10; //Mora_Coin
+	delitem 6380,1; //Mora_Coin
 	getitem .@items[.@i],1;
 	mes "[Guardian of Power]";
 	mes "Thank you for the 10 Mora Coins. Here is your artifact for the "+.@jobs$[.@job]+" job. Come back whenever you get more Mora Coins.";
@@ -1113,24 +1113,12 @@ L_Socket:
 		delitem 6380,1; //Mora_Coin
 		set Zeny, Zeny-100000;
 		delequip .@part;
-		if (.@enchant == 9) {
-			specialeffect2 EF_SUI_EXPLOSION;
-			mes "[Artifact Researcher]";
-			mes "This!";
- 			mes "I... I'm sorry but the equipment has been destroyed.";
-			close;
-		}
-		if (.@enchant == 0) {
-			specialeffect2 EF_SHIELDCHARGE;
-			mes "[Artifact Researcher]";
-			mes "Since the balance of power does not match, the given existing ability has been destroyed. It is unfortunate but please try again next time.";
-		} else {
-			specialeffect2 EF_REPAIRWEAPON;
-			mes "[Artifact Researcher]";
-			// Replacing original dialogue since it doesn't make sense.
-			//mes "The artifact ^990000"+.@slot+" will have the first enhancement retained.";
-			mes "I've successfully enhanced the artifact ^990000"+.@equip_name$+"^000000 at socket "+.@slot+".";
-		}
+
+		specialeffect2 EF_REPAIRWEAPON;
+		mes "[Artifact Researcher]";
+		// Replacing original dialogue since it doesn't make sense.
+		//mes "The artifact ^990000"+.@slot+" will have the first enhancement retained.";
+		mes "I've successfully enhanced the artifact ^990000"+.@equip_name$+"^000000 at socket "+.@slot+".";
 
 //		GetNonSlotItemSock2 .@equip_refine .@equip_id .@equip_card[0] .@equip_card[1] .@equip_card[2] .@equip_card[3]
 		getitem2 .@equip_id,1,1,.@equip_refine,0,.@equip_card[0],.@equip_card[1],.@equip_card[2],.@equip_card[3];
@@ -1497,7 +1485,7 @@ L_ShowInfo:
 function	script	F_Mora_Enchant	{
 	specialeffect2 EF_REPAIRWEAPON;
 	progressbar "ffff00",3;
-	delitem 6380,5; //Mora_Coin
+	delitem 6380,1; //Mora_Coin
 	if (countitem(getarg(0)) < 1)
 		return 0;
 	delitem getarg(0),1;

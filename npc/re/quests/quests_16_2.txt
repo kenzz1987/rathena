@@ -617,7 +617,7 @@ prt_cas_q,18,37,5	script	Skia Nerius#ep162_01	4_EP16_SKIA,{
 		mes "[Kronecker]";
 		mes "You can continue to enjoy everything you did as a guest. We have agreed on it.";
 		mes "As you always have shown us honest faith.";
-		getitem 6919,10;	// TokenOfHonor
+		getitem 6919,100;	// TokenOfHonor
 		getexp 500000,500000;
 		completequest 7741;// Let's return
 		terra_gloria_main = 24;
