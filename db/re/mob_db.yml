@@ -170,6 +170,8 @@ Body:
         Rate: 20
       - Item: Poring_Card
         Rate: 20
+      - Item: Old_Card_Album
+        Rate: 40
         StealProtected: true
 #  - Id: 1003
 #    AegisName: THIEF_BUG_AGG
@@ -4724,7 +4726,7 @@ Body:
       - Item: Halberd_
         Rate: 1
       - Item: Yggdrasilberry
-        Rate: 25
+        Rate: 100
       - Item: Yellow_Herb
         Rate: 650
       - Item: Boots
@@ -4767,7 +4769,7 @@ Body:
       - Item: Sparkling_Dust
         Rate: 100
       - Item: Starsand_Of_Witch
-        Rate: 2425
+        Rate: 10000
       - Item: Star_Sparkling
         Rate: 2
       - Item: Scarlet_Rod
@@ -10052,7 +10054,7 @@ Body:
       - Item: Banana
         Rate: 2500
       - Item: Tropical_Banana
-        Rate: 10
+        Rate: 200
       - Item: Banana_Juice
         Rate: 500
       - Item: Yggdrasilberry
@@ -11938,7 +11940,7 @@ Body:
       - Item: Plate_Armor
         Rate: 1
       - Item: Prohibition_Red_Candle
-        Rate: 1
+        Rate: 10
       - Item: Scarlet_Katar
         Rate: 50
         RandomOptionGroup: Group_5
@@ -30119,7 +30121,7 @@ Body:
       - Item: Imperial_Cooking_Kits
         Rate: 25
       - Item: Sway_Apron
-        Rate: 1
+        Rate: 10
       - Item: Orleans_Server
         Rate: 3
       - Item: Aliza_Card
@@ -31279,6 +31281,8 @@ Body:
     DamageMotion: 360
     Ai: 20
     Drops:
+      - Item: Starsand_Of_Witch
+        Rate: 10000
       - Item: Suspicious_Hat
         Rate: 1250
       - Item: Seed_Of_Yggdrasil
@@ -31326,6 +31330,8 @@ Body:
     DamageMotion: 360
     Ai: 04
     Drops:
+      - Item: Starsand_Of_Witch
+        Rate: 10000
       - Item: White_Mask
         Rate: 1250
       - Item: Royal_Jelly
@@ -31373,6 +31379,8 @@ Body:
     DamageMotion: 432
     Ai: 04
     Drops:
+      - Item: Starsand_Of_Witch
+        Rate: 10000
       - Item: White_Mask
         Rate: 1250
       - Item: High_Fashion_Sandals
@@ -34750,7 +34758,7 @@ Body:
       - Item: Banana
         Rate: 2500
       - Item: Tropical_Banana
-        Rate: 10
+        Rate: 200
       - Item: Sweet_Banana
         Rate: 500
       - Item: Yggdrasilberry
@@ -56083,7 +56091,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Sticky_Mucus
         Rate: 1000
       - Item: White_Jewel
@@ -56123,7 +56131,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Wedding_Veil
         Rate: 100
       - Item: Crystal_Jewel_
@@ -56166,7 +56174,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Oridecon_Stone
         Rate: 100
       - Item: Skul_Ring
@@ -56210,7 +56218,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Round_Shell
         Rate: 3000
       - Item: Great_Nature
@@ -56250,7 +56258,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Brigan
         Rate: 3000
       - Item: Elunium
@@ -56294,7 +56302,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 100
       - Item: Coagulated_Spell
-        Rate: 10
+        Rate: 500
       - Item: Brigan
         Rate: 3000
       - Item: Elunium
@@ -56339,7 +56347,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 200
       - Item: Coagulated_Spell
-        Rate: 50
+        Rate: 500
       - Item: Reins
         Rate: 5000
       - Item: Patriotism_Marks
@@ -56381,7 +56389,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 200
       - Item: Coagulated_Spell
-        Rate: 50
+        Rate: 500
       - Item: Elunium
         Rate: 50
       - Item: Patriotism_Marks
@@ -56424,7 +56432,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 200
       - Item: Coagulated_Spell
-        Rate: 50
+        Rate: 500
       - Item: Brigan
         Rate: 5000
       - Item: Broad_Sword
@@ -56468,7 +56476,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 500
       - Item: Coagulated_Spell
-        Rate: 50
+        Rate: 500
       - Item: Alca_Bringer
         Rate: 10
       - Item: Claymore
@@ -56515,7 +56523,7 @@ Body:
       - Item: Glast_Horrendous_Mouth
         Rate: 500
       - Item: Coagulated_Spell
-        Rate: 50
+        Rate: 500
       - Item: Claymore
         Rate: 100
       - Item: Holy_Avenger
@@ -68290,7 +68298,7 @@ Body:
       - Item: Plate_Armor
         Rate: 5
       - Item: Prohibition_Red_Candle
-        Rate: 5
+        Rate: 100
       - Item: Scarlet_Katar
         Rate: 250
         RandomOptionGroup: Group_5
@@ -73655,7 +73663,7 @@ Body:
       - Item: Imperial_Cooking_Kits
         Rate: 125
       - Item: Sway_Apron
-        Rate: 5
+        Rate: 10
       - Item: Orleans_Server
         Rate: 15
       - Item: Aliza_Card

@@ -313,10 +313,6 @@ function	script	Func_Socket	{
 					mes "However, I am completely innocent.";
 					mes "This is your luck, and it is destined by god, okay?";
 					mes "Don't be so disappointed, and try next time.";
-					delitem .@item_id,1;
-					delitem .@item_req[0],.@req_amount[0];
-					if (.@item_req[1] != 0 && .@req_amount[1] != 0)
-						delitem .@item_req[1],.@req_amount[1];
 					Zeny = Zeny - .@zeny_req *1000;
 					next;
 					mes "[Seiyablem]";

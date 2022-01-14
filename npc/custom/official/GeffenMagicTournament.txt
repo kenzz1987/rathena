@@ -1437,7 +1437,7 @@ OnInstanceInit:
 				"Geffen Festivities.";
 				close2;
 				cutin "",255;
-				getitem 6671,'reward[getarraysize('reward[0]) - 1];
+				getitem 6671,100;
 				warp instance_mapname("1@gef"), 120,35;
 				end;
 			case 2:
@@ -1466,7 +1466,7 @@ OnInstanceInit:
 					mes .@n$;
 					mes "The "+callfunc("F_GetNumSuffix",('GMT_1QUE-9))+" match of Group A is about to begin!";
 					close2;
-					getitem 6671, 'reward['GMT_1QUE-11];
+					getitem 6671,50;
 					hideonnpc instance_npcname("Tournament Healer#1");
 					
 					switch ('GMT_1QUE) {

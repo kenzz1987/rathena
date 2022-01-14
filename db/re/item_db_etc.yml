@@ -5468,7 +5468,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus2 bAddMonsterDropItem,603,10;
+      bonus2 bAddMonsterDropItem,603,100;
   - Id: 4206
     AegisName: Mystcase_Card
     Name: Myst Case Card
@@ -5483,7 +5483,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus2 bAddMonsterDropItem,644,30;
+      bonus2 bAddMonsterDropItem,644,100;
   - Id: 4207
     AegisName: Mysteltainn_Card
     Name: Mysteltainn Card

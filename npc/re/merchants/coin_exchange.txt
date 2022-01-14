@@ -911,13 +911,13 @@ ecl_in01,64,97,5	script	Slot Expert Nattuer#ecl	436,{
 	disable_items;
 	mes "[Slot Expert]";
 	mes "I am Slot Expert Nattuer.";
-	mes "If you bring me an item from my little brother Naphara along with 5 Splendide Coins, I will open up one Slot for you.";
+	mes "If you bring me an item from my little brother Naphara along with 20 Splendide Coins, I will open up one Slot for you.";
 	next;
 	if (select("Activate a Slot.:Forget it.") == 2){
 		close;
 	}
 	mes "[Slot Expert]";
-	mes "Slot activation is an extremely difficult procedure that can fail even with heightened care and the use of a magnifying lens.";
+	mes "Slot activation is an extremely difficult procedure even with heightened care and the use of a magnifying lens.";
 	next;
 	mes "[Slot Expert]";
 	mes "Of course, if your heart were as big as that flower-filled land, you wouldn't mind. Right? Should I go for it?";
@@ -943,22 +943,15 @@ ecl_in01,64,97,5	script	Slot Expert Nattuer#ecl	436,{
 		mes "You don't have that item. Why don't you talk to me when you know for sure.";
 		close;
 	}
-	if (countitem(6081) < 5) {
+	if (countitem(6081) < 20) {
 		mes "[Slot Expert]";
 		mes "You don't have enough coins. Why don't you talk to me when you know for sure.";
 		close;
 	}
 	progressbar "0xFFFF00",3;
 	mes "[Slot Expert]";
-	delitem 6081,5; //Splendide_Coin
+	delitem 6081,20; //Splendide_Coin
 	.@luckyday = rand(1,100);
-	if (.@luckyday % 20){
-		emotion ET_THINK;
-		delitem .@choice,1;
-		mes "Shoot, I'm sorry. It failed.";
-		mes "But I'm sure it will work next time. I have a feeling.";
-		close;
-	}
 	emotion ET_BEST;
 	delitem .@choice,1;
 	getitem (.@choice+6),1;
