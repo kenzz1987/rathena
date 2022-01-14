@@ -100,7 +100,7 @@ mora,88,89,5	script	Keeper of Secrets#pa082	495,{
 			break;
 		}
 		set .@item, .@items[rand(getarraysize(.@items))];
-		delitem 6380,1; //Mora_Coin
+		delitem 6380,10; //Mora_Coin
 		getitem .@item,1;
 		mes "[Artifice]";
 		mes "You have obtained ^aa00aa"+getitemname(.@item)+"^000000. May the Blessing of the Light be with you.";
@@ -385,7 +385,7 @@ mora,104,76,4	script	Guardian of Artifacts#p	495,{
 		close;
 	}
 	set .@item, .@items[rand(getarraysize(.@items))];
-	delitem 6380,1; //Mora_Coin
+	delitem 6380,10; //Mora_Coin
 	getitem .@item,1;
 	mes "[Guardian of Artifacts]";
 	mes "I have ^aa00aa"+getitemname(.@item)+"^000000 available today. I hope "+((.@plural)?"they":"it")+" will come in handy...";
@@ -588,7 +588,7 @@ mora,152,97,5	script	Guardian of Power#pa082	515,{
 		mes "Didn't I tell you to bring the correct amount of Mora Coins?";
 		close;
 	}
-	delitem 6380,1; //Mora_Coin
+	delitem 6380,10; //Mora_Coin
 	getitem .@items[.@i],1;
 	mes "[Guardian of Power]";
 	mes "Thank you for the 10 Mora Coins. Here is your artifact for the "+.@jobs$[.@job]+" job. Come back whenever you get more Mora Coins.";
