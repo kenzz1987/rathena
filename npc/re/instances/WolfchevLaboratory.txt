@@ -532,7 +532,7 @@ lhz_dun04,151,276,3	script	Researcher#memo	4_LGTSCIENCE,{
 		mes "^FF0000You cannot continue the process due to possessing too many belongings.^000000";
 		close;
 	}
-	.@quest_time = checkquest(5112, PLAYTIME);
+	.@quest_time = 1;
 	.@killed_bosses = true;
 	for(.@quest_id = 5113; .@quest_id <= 5125; .@quest_id++) {
 		if (checkquest(.@quest_id, HUNTING) <= 1)
