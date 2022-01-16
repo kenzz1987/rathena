@@ -741,7 +741,7 @@ lhz_dun04,147,279,0	script	Laboratory Entrance#memo	CLEAR_NPC,{
 		mes "^FF0000You cannot continue the process due to possessing too many belongings.^000000";
 		close;
 	}
-	.@lhz_time = checkquest(5112, PLAYTIME);
+	.@lhz_time = -1;
 	if (lght_duk01 < 7) {
 		mes "It says,";
 		mes "'^0000FF****'s laboratory member only^000000'";
