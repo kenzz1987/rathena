@@ -607,7 +607,7 @@ lhz_dun04,151,276,3	script	Researcher#memo	4_LGTSCIENCE,{
 			mes "[Wolfchev]";
 			mes "Are you all set there? I will prepare the entrance if you are the leader of that party.";
 			next;
-			switch(select("Any warnings?", "Going into the laboratory", "Reset Instance")) {
+			switch(select("Any warnings?", "Going into the laboratory", "Do not enter")) {
 			case 1:
 				mes "[Wolfchev]";
 				mes "I didn't know pressing the emergency alarm would cause such problem. The management system seems to be changed to emergency mode.";
@@ -721,21 +721,7 @@ lhz_dun04,151,276,3	script	Researcher#memo	4_LGTSCIENCE,{
 				}
 			case 3:
 				mes "[Wolfchev]";
-				mes "Please try again.";
-				erasequest 5112;
-				erasequest 5113;
-				erasequest 5114;
-				erasequest 5115;
-				erasequest 5116;
-				erasequest 5117;
-				erasequest 5118;
-				erasequest 5119;
-				erasequest 5120;
-				erasequest 5121;
-				erasequest 5122;
-				erasequest 5123;
-				erasequest 5124;
-				erasequest 5125;
+				mes "Need more preparation? Please, we don't have all day.";
 				close;
 			}
 		} else {
