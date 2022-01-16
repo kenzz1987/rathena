@@ -756,7 +756,7 @@ lhz_dun04,147,279,0	script	Laboratory Entrance#memo	CLEAR_NPC,{
 		}
 		mapannounce "lhz_dun04","Laboratory entrance system ["+ strcharinfo(1) +"] member ["+ strcharinfo(0) +"] access granted..",bc_map,"0x0DF297";
 		setquest 5112;
-		//warp "1@lhz", 45, 148;
+		warp "1@lhz", 45, 148;
 		close;
 	} else if (.@lhz_time == 0) {
 		mes "Di Rit- Di- Di- Dit-";
