@@ -723,6 +723,19 @@ lhz_dun04,151,276,3	script	Researcher#memo	4_LGTSCIENCE,{
 				mes "[Wolfchev]";
 				mes "Please try again.";
 				erasequest 5112;
+				erasequest 5113;
+				erasequest 5114;
+				erasequest 5115;
+				erasequest 5116;
+				erasequest 5117;
+				erasequest 5118;
+				erasequest 5119;
+				erasequest 5120;
+				erasequest 5121;
+				erasequest 5122;
+				erasequest 5123;
+				erasequest 5124;
+				erasequest 5125;
 				close;
 			}
 		} else {
