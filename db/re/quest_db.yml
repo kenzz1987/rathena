@@ -1898,7 +1898,7 @@ Body:
     Title: To the Lab...
   - Id: 5112
     Title: Laboratory Restricted Access
-    TimeLimit: +3d
+    TimeLimit: +5mn
   - Id: 5113
     Title: "[Rest] Lord Knight"
     Targets:
