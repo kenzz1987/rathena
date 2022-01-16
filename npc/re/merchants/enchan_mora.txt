@@ -163,14 +163,8 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 		next;
 		mes "[Relice]";
 		mes "So it you have already enchanted relic, please put it some place safe and come back.";
-		next;
-		mes "[Relice]";
-		mes "Ah, one more thing! It is possible I can fail though and if that happens the relic is lost forever.";
 		close;
 	case 2:
-		mes "[Relice]";
-		mes "Ok, you can get a new Relic from Artifice if it fails.";
-		next;
 		mes "[Relice]";
 		mes "If you have a ritual for luck, you should use it now!";
 		next;
@@ -416,9 +410,6 @@ mora,99,93,5	script	Artifact Crafter#pa0829	495,{
 	next;
 	mes "[Artifact Crafter]";
 	mes "So if you have an artifact reinforced to your liking, put it in a safe place and come back.";
-	next;
-	mes "[Artifact Crafter]";
-	mes "And another thing, the artifact will be destroyed if the reinforcement fails. Please keep that in mind.";
 	if (.@info_only)
 		close;
 	next;
@@ -481,12 +472,7 @@ mora,99,93,5	script	Artifact Crafter#pa0829	495,{
 		else if (.@i <= 1986) setarray .@enchants[2],4713,4761; //Inteligence4 Matk2
 		else if (.@i <= 1988) setarray .@enchants[2],4713,4713; //Inteligence4 Inteligence4
 		else if (.@i <= 1990) setarray .@enchants[2],4761,4761; //Matk2 Matk2
-		else if (.@i <= 1992) setarray .@enchants[2],4761,4713; //Matk2 Inteligence4
-		else if (.@i <= 2847) {
-			mes "[Artifact Crafter]";
-			mes "Oh no... it broke... Well, it happens. Better luck next time.";
-			close;
-		}
+		else if (.@i <= 2847) setarray .@enchants[2],4761,4713; //Matk2 Inteligence4
 		break;
 	case 2:
 		set .@i, rand(1,2858);
@@ -508,12 +494,7 @@ mora,99,93,5	script	Artifact Crafter#pa0829	495,{
 		else if (.@i <= 1994) setarray .@enchants[1],4722,4713,4761; //Dexterity3 Inteligence4 Matk2
 		else if (.@i <= 1996) setarray .@enchants[1],4722,4713,4713; //Dexterity3 Inteligence4 Inteligence4
 		else if (.@i <= 1998) setarray .@enchants[1],4722,4761,4761; //Dexterity3 Matk2 Matk2
-		else if (.@i <= 2000) setarray .@enchants[1],4722,4761,4713; //Dexterity3 Matk2 Inteligence4
-		else if (.@i <= 2858) {
-			mes "[Artifact Crafter]";
-			mes "Oh no... it broke... Well, it happens. Better luck next time.";
-			close;
-		}
+		else if (.@i <= 2858) setarray .@enchants[1],4722,4761,4713; //Dexterity3 Matk2 Inteligence4
 		break;
 	}
 	getitem2 .@item,1,1,0,0,0,.@enchants[1],.@enchants[2],.@enchants[3];
@@ -761,7 +742,7 @@ L_Socket:
 			mes "Attempting second enhancement. The previous enforcement won't be affected.";
 			next;
 			mes "[Artifact Researcher]";
-			mes "I may have a chance to fail now with this attempt. Do you wish to continue?";
+			mes "Do you wish to continue?";
 		} else if (.@equip_card[1] == 0 && .@allowed_slot < 2) {
 			set .@slot,2;
 			mes "[Artifact Researcher]";
@@ -1575,9 +1556,6 @@ mora,105,176,4	script	Master Tailor#pa0829	509,{
 		mes "[Master Tailor]";
 		mes "So if you have with you an army padding mended to your liking, put it in a safe place and come back.";
 		next;
-		mes "[Master Tailor]";
-		mes "And another thing - once I fail to add art to it, it becomes unusable... you'll need to buy a new one in that case.";
-		next;
 		switch(select("Come on, what's the rush?:Okay! Let's do it!!")) {
 		case 1:
 			mes "[Master Tailor]";
@@ -1591,15 +1569,6 @@ mora,105,176,4	script	Master Tailor#pa0829	509,{
 				next;
 				mes "[Master Tailor]";
 				mes "You have to have 5 Mora Coins and an Army Padding with you before I can do my work.";
-				close;
-			}
-			if (callfunc("F_Mora_Enchant",15024) == 0) {
-				mes "[Master Tailor]";
-				mes "Oh......";
-				mes "I can't believe I messed up.";
-				next;
-				mes "[Master Tailor]";
-				mes "I want to be alone. Go away!";
 				close;
 			}
 			mes "[Master Tailor]";
