@@ -223,12 +223,7 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 					.@enchant_slot2[rand(getarraysize(.@enchant_slot2))],
 					.@enchant_slot3[rand(getarraysize(.@enchant_slot3))];
 			}
-			else if (.@i <= 1040) setarray .@enchants[2],.@sp,.@sp; //[sp] [sp]
-			else if (.@i <= 1487) {
-				mes "[Relice]";
-				mes "Sometimes things just don't work out the way you want. I hope next time things go better for you. Until then, good bye.";
-				close;
-			}
+			else if (.@i <= 1487) setarray .@enchants[2],.@sp,.@sp; //[sp] [sp]
 			break;
 		case 2:
 			set .@i, rand(1,1487);
@@ -250,12 +245,7 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 			else if (.@i <= 1034) setarray .@enchants[1],4722,4723,4723; //Dexterity3 Dexterity4 Dexterity4
 			else if (.@i <= 1036) setarray .@enchants[1],4722,4703,4703; //Dexterity3 Strength4 Strength4
 			else if (.@i <= 1038) setarray .@enchants[1],4722,4767,4767; //Dexterity3 Atk3 Atk3
-			else if (.@i <= 1040) setarray .@enchants[1],4767,4767,4767; //Atk3 Atk3 Atk3
-			else if (.@i <= 1487) {
-				mes "[Relice]";
-				mes "Sometimes things just don't work out the way you want. I hope next time things go better for you. Until then, good bye.";
-				close;
-			}
+			else if (.@i <= 1487) setarray .@enchants[1],4767,4767,4767; //Atk3 Atk3 Atk3
 			break;
 		case 3:
 			set .@i, rand(1,2852);
@@ -273,12 +263,7 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 			else if (.@i <= 1990) setarray .@enchants[2],4761,4714; //Matk2 Inteligence5
 			else if (.@i <= 1992) setarray .@enchants[2],4714,4714; //Inteligence5 Inteligence5
 			else if (.@i <= 1994) setarray .@enchants[2],4714,4723; //Inteligence5 Dexterity4
-			else if (.@i <= 1996) setarray .@enchants[2],4723,4723; //Dexterity4 Dexterity4
-			else if (.@i <= 2852) {
-				mes "[Relice]";
-				mes "Sometimes things just don't work out the way you want. I hope next time things go better for you. Until then, good bye.";
-				close;
-			}
+			else if (.@i <= 2852) setarray .@enchants[2],4723,4723; //Dexterity4 Dexterity4
 			break;
 		case 4:
 			set .@i, rand(1,2852);
@@ -296,12 +281,7 @@ mora,96,74,5	script	Master of Relics#pa0829	495,{
 			else if (.@i <= 1990) setarray .@enchants[2],4767,4704; //Atk3 Strength5
 			else if (.@i <= 1992) setarray .@enchants[2],4704,4704; //Strength5 Strength5
 			else if (.@i <= 1994) setarray .@enchants[2],4704,4723; //Strength5 Dexterity4
-			else if (.@i <= 1996) setarray .@enchants[2],4723,4723; //Dexterity4 Dexterity4
-			else if (.@i <= 2852) {
-				mes "[Relice]";
-				mes "Sometimes things just don't work out the way you want. I hope next time things go better for you. Until then, good bye.";
-				close;
-			}
+			else if (.@i <= 2852) setarray .@enchants[2],4723,4723; //Dexterity4 Dexterity4
 			break;
 		}
 		getitem2 .@item,1,1,0,0,0,.@enchants[1],.@enchants[2],.@enchants[3];
