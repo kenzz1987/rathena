@@ -147,10 +147,10 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			mes "These are the armors I have.";
 			next;
 			for(.@i = 1; .@i < 8; .@i++) {
-				if (((.@i == 1 || .@i == 5) && (countitem(6469) >= 100) && (countitem(6470) >= 50) && (countitem(6471) >= 35)) || 
-				    ((.@i == 2 || .@i == 3) && (countitem(6469) >= 100) && (countitem(6470) >= 50) && (countitem(6471) >= 22)) ||
-				    ((.@i == 4 || .@i == 7) && (countitem(6469) >= 300) && (countitem(6470) >= 300) && (countitem(6471) >= 400)) ||
-				    ((.@i == 6) && (countitem(6469) >= 100) && (countitem(6470) >= 50) && (countitem(6471) >= 30))) {
+				if (((.@i == 1 || .@i == 5) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) || 
+				    ((.@i == 2 || .@i == 3) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				    ((.@i == 4 || .@i == 7) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				    ((.@i == 6) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
 					.@armor$[.@i] = "^0000FF";
 				} else {
 					.@armor$[.@i] = "^FF0000";
@@ -231,11 +231,11 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			mes "These are the weapons I've got.";
 			next;
 			for(.@i = 1; .@i < 15; .@i++) {
-				if (((.@i == 1) && (countitem(6469) >= 50) && (countitem(6470) >= 100) && (countitem(6471) >= 10)) ||
-				((.@i == 2) && (countitem(6469) >= 50) && (countitem(6470) >= 100) && (countitem(6471) >= 85)) ||
-				((.@i == 3 || .@i == 4 || (.@i >= 8 && .@i < 11) || .@i >= 12) && (countitem(6469) >= 50) && (countitem(6470) >= 100) && (countitem(6471) >= 35)) ||
-				((.@i == 5 || .@i == 7 || .@i == 11) && (countitem(6469) >= 50) && (countitem(6470) >= 100) && (countitem(6471) >= 40)) ||
-				((.@i == 6) && (countitem(6469) >= 300) && (countitem(6470) >= 300) && (countitem(6471) >= 400))) {
+				if (((.@i == 1) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 2) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 3 || .@i == 4 || (.@i >= 8 && .@i < 11) || .@i >= 12) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 5 || .@i == 7 || .@i == 11) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 6) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
 					.@weapon$[.@i] = "^0000FF";
 				} else {
 					.@weapon$[.@i] = "^FF0000";
@@ -674,17 +674,17 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	mes "[Pudding]";
 	mes "OHHH.. This equipment could accept the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000'.";
 	next;
-	if (countitem(6469) >= 10)
+	if (countitem(6469) >= 5)
 		.@menu_in$[1] = "Dwell the power of '^F2766EWill of Warrior^000000'";
 	else
 		.@menu_in$[1] = "Not enough ^999999'Will of Warrior'^000000";
 
-	if (countitem(6470) >= 10)
+	if (countitem(6470) >= 3)
 		.@menu_in$[2] = "Dwell the power of '^952420Thirst for Blood^000000'";
 	else
 		.@menu_in$[2] = "Not enough ^999999'Thirst for Blood'^000000";
 
-	if (countitem(6471) >= 10)
+	if (countitem(6471) >= 1)
 		.@menu_in$[3] = "Consume the '^88C6F7Chill of the Dead^000000'";
 	else
 		.@menu_in$[3] = "Not enough ^999999'Chill of the Dead'^000000";
@@ -697,7 +697,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 		mes "Ohhh.. I was looking forward to doing it, but it's all up to you......";
 		close;
 	case 2:
-		if (countitem(6469) < 10) {
+		if (countitem(6469) < 1) {
 			mes "[Pudding]";
 			mes "Not enough '^F2766EWill of Warrior^000000'. You need to bring 10 '^F2766EWill of Warrior^000000'";
 			close;

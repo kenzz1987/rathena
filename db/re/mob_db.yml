@@ -25683,9 +25683,9 @@ Body:
       - Item: Carnium
         Rate: 1
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Will_Of_Warrior
-        Rate: 200
+        Rate: 1000
       - Item: Ruber
         Rate: 100
       - Item: Seyren_Card
@@ -25737,7 +25737,7 @@ Body:
       - Item: Various_Jur
         Rate: 15
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Krishna
         Rate: 200
       - Item: Eremes_Card
@@ -25779,13 +25779,13 @@ Body:
       - Item: Armlet_Of_Prisoner
         Rate: 1500
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Vecer_Axe
         Rate: 200
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 200
+        Rate: 1000
       - Item: Clothes_Of_The_Lord
         Rate: 1
       - Item: Carnium
@@ -25831,7 +25831,7 @@ Body:
       - Item: Croce_Staff
         Rate: 200
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Hardback
         Rate: 5
       - Item: Bible_Of_Promise2
@@ -25839,7 +25839,7 @@ Body:
       - Item: Recovery_Light
         Rate: 10
       - Item: Will_Of_Warrior
-        Rate: 200
+        Rate: 1000
       - Item: Magaleta_Card
         Rate: 1
         StealProtected: true
@@ -25885,9 +25885,9 @@ Body:
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 200
+        Rate: 1000
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Falken_Blitz
         Rate: 200
       - Item: Shecil_Card
@@ -25935,11 +25935,11 @@ Body:
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 200
+        Rate: 1000
       - Item: Pair_Of_Red_Ribbon
         Rate: 1
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Katrinn_Card
         Rate: 1
         StealProtected: true
@@ -26525,7 +26525,7 @@ Body:
       - Item: Robe_Of_Casting
         Rate: 1250
       - Item: Goast_Chill
-        Rate: 1000
+        Rate: 100000
       - Item: High_Weapon_Box
         Rate: 5000
       - Item: Glittering_Clothes
@@ -26571,7 +26571,7 @@ Body:
       - Item: Katzbalger
         Rate: 1
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Saber_
         Rate: 10
       - Item: Silent_Energy_Particle
@@ -26625,7 +26625,7 @@ Body:
       - Item: Weak_Energy_Particle
         Rate: 250
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Ring_Of_Rogue
         Rate: 1
       - Item: Coward_
@@ -26677,7 +26677,7 @@ Body:
       - Item: Weak_Energy_Particle
         Rate: 250
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Windhawk
         Rate: 5
       - Item: Armaia_Card
@@ -26727,7 +26727,7 @@ Body:
       - Item: Weak_Energy_Particle
         Rate: 250
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Spike
         Rate: 1
       - Item: Erend_Card
@@ -26777,7 +26777,7 @@ Body:
       - Item: Weak_Energy_Particle
         Rate: 250
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Shoes_
         Rate: 1
       - Item: Kavac_Card
@@ -26821,7 +26821,7 @@ Body:
       - Item: Staff_Of_Wing
         Rate: 1
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Silent_Energy_Particle
         Rate: 1000
       - Item: Weak_Energy_Particle
@@ -48099,7 +48099,7 @@ Body:
       - Item: Armlet_Of_Prisoner
         Rate: 2000
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Sinister_Energy_Particle
         Rate: 1000
       - Item: Elunium
@@ -48109,7 +48109,7 @@ Body:
       - Item: Bible_Of_Promise2
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Randel_Card
         Rate: 1
         StealProtected: true
@@ -48148,7 +48148,7 @@ Body:
       - Item: Armlet_Of_Prisoner
         Rate: 2000
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Sinister_Energy_Particle
         Rate: 1000
       - Item: Oridecon
@@ -48158,7 +48158,7 @@ Body:
       - Item: Red_Ether_Bag
         Rate: 1
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Flamel_Card
         Rate: 1
         StealProtected: true
@@ -48197,7 +48197,7 @@ Body:
       - Item: Armlet_Of_Prisoner
         Rate: 2000
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Telekinetic_Orb
         Rate: 20
       - Item: Sinister_Energy_Particle
@@ -48207,7 +48207,7 @@ Body:
       - Item: Mental_Stick
         Rate: 1
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Ceila_Card
         Rate: 1
         StealProtected: true
@@ -48245,7 +48245,7 @@ Body:
     Ai: 19
     Drops:
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Lab_Staff_Record
         Rate: 2000
       - Item: Sinister_Energy_Particle
@@ -48257,7 +48257,7 @@ Body:
       - Item: Berserk
         Rate: 5
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Chen_Card
         Rate: 1
         StealProtected: true
@@ -48296,7 +48296,7 @@ Body:
       Detector: true
     Drops:
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Lab_Staff_Record
         Rate: 2000
       - Item: Sinister_Energy_Particle
@@ -48308,7 +48308,7 @@ Body:
       - Item: Black_Wing
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Gertie_Card
         Rate: 1
         StealProtected: true
@@ -48345,7 +48345,7 @@ Body:
     Ai: 19
     Drops:
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Lab_Staff_Record
         Rate: 2000
       - Item: Sinister_Energy_Particle
@@ -48357,7 +48357,7 @@ Body:
       - Item: Green_Whistle
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Alphoccio_Card
         Rate: 1
         StealProtected: true
@@ -48394,7 +48394,7 @@ Body:
     Ai: 19
     Drops:
       - Item: Goast_Chill
-        Rate: 1
+        Rate: 100
       - Item: Lab_Staff_Record
         Rate: 2000
       - Item: Dance_Shoes
@@ -48406,7 +48406,7 @@ Body:
       - Item: Stem_Whip
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 150
+        Rate: 300
       - Item: Trentini_Card
         Rate: 1
         StealProtected: true
@@ -62522,7 +62522,7 @@ Body:
       - Item: Will_Of_Warrior
         Rate: 1000
       - Item: Goast_Chill
-        Rate: 5
+        Rate: 100
       - Item: Falken_Blitz
         Rate: 1000
       - Item: Shecil_Card
@@ -63693,7 +63693,7 @@ Body:
       - Item: Staff_Of_Wing
         Rate: 5
       - Item: Goast_Chill
-        Rate: 5
+        Rate: 100
       - Item: Scarlet_Rod
         Rate: 250
       - Item: Silk_Robe_
@@ -72133,7 +72133,7 @@ Body:
       - Item: Armlet_Of_Prisoner
         Rate: 10000
       - Item: Goast_Chill
-        Rate: 5
+        Rate: 100
       - Item: Telekinetic_Orb
         Rate: 100
       - Item: Elunium
@@ -72143,7 +72143,7 @@ Body:
       - Item: Mental_Stick
         Rate: 5
       - Item: Blood_Thirst
-        Rate: 750
+        Rate: 1500
   - Id: 2876
     AegisName: C4_CATERPILLAR
     Name: Furious Caterpillar

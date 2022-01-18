@@ -159,7 +159,7 @@ Body:
     Title: Neighborhood Knight - I Need Clues
   - Id: 1119
     Title: Neighborhood Knight - Cooldown
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 1145
     Title: Help the poor cat
   - Id: 1146
@@ -176,7 +176,7 @@ Body:
     Title: Help the poor cat
   - Id: 1152
     Title: Help the poor cat
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 1153
     Title: Help the poor cat
   - Id: 1154
@@ -348,7 +348,7 @@ Body:
     Title: Shop guide
   - Id: 1261
     Title: Cursed Swordman
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 1263
     Title: Cursed Swordman
   - Id: 1264
@@ -692,7 +692,7 @@ Body:
     Title: For Arunafeltz
   - Id: 2143
     Title: Guild Dungeon Event
-    TimeLimit: +50s
+    TimeLimit: +5mn
   - Id: 2144
     Title: Guild Dungeon Event
   - Id: 2147
@@ -738,7 +738,7 @@ Body:
     Title: Dr. Lifeguard's request
   - Id: 2182
     Title: Rough Minerals
-    TimeLimit: +18h
+    TimeLimit: +5mn
   - Id: 2183
     Title: Flower of Alfheim
   - Id: 2184
@@ -747,7 +747,7 @@ Body:
     Title: Spirit of Alfheim
   - Id: 2186
     Title: Helping Grenouille
-    TimeLimit: +18h
+    TimeLimit: +5mn
   - Id: 2187
     Title: Arch Bishop job changing quest
   - Id: 2188
@@ -818,7 +818,7 @@ Body:
     Title: Wanderer Job Change Quest
   - Id: 2221
     Title: Wanderer Job Change Quest
-    TimeLimit: +10mn
+    TimeLimit: +5mn
     Targets:
       - Mob: NOVUS_
         Count: 50
@@ -861,10 +861,10 @@ Body:
         Count: 20
   - Id: 2290
     Title: Verit Hunting - Cooldown
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 2291
     Title: Mummy Hunting - Cooldown
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 2292
     Title: Mummy Hunting (Nightmare)
     Targets:
@@ -954,10 +954,10 @@ Body:
     Title: Job Change to Monk - Become a Monk
   - Id: 3040
     Title: The Curse of Baphomet
-    TimeLimit: +12h
+    TimeLimit: +5mn
   - Id: 3041
     Title: The Curse of Baphomet
-    TimeLimit: +3mn
+    TimeLimit: +5mn
   - Id: 3042
     Title: The Cursed Baphomet Doll
   - Id: 3043
@@ -966,7 +966,7 @@ Body:
     Title: The Gigantic Magestic Goat
   - Id: 3045
     Title: Sealed Shrine
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 3046
     Title: Sealed Shrine After-effect
   - Id: 3050
@@ -1045,7 +1045,7 @@ Body:
     Title: Report to the continent - Location of reports
   - Id: 3091
     Title: Report to the continent - Location of reports
-    TimeLimit: +30mn
+    TimeLimit: +5mn
   - Id: 3092
     Title: Report to the continent - Success to restore!
   - Id: 3093
@@ -1124,10 +1124,10 @@ Body:
     Title: Z Gang Wanted - Clean Sweep of Z Gang
   - Id: 3135
     Title: Nidhoggur's Nest
-    TimeLimit: +3d
+    TimeLimit: +5mn
   - Id: 3136
     Title: Nidhoggur's Nest Time Limit
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 3200
     Title: Job changes to Rune knight - Recommendation for Rune knight
   - Id: 3201
@@ -1182,7 +1182,7 @@ Body:
     Title: Job changes to Rune knight - The end of all test
   - Id: 3220
     Title: Job changes to Rune knight - Waiting time of test
-    TimeLimit: +10mn
+    TimeLimit: +5mn
   - Id: 3250
     Title: Request - What is this bandage for?
     Targets:
@@ -1271,7 +1271,7 @@ Body:
     Title: Iara
   - Id: 4135
     Title: Iara
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 4154
     Title: Homunculus Researcher
   - Id: 4155
@@ -1450,100 +1450,100 @@ Body:
         Count: 30
   - Id: 4197
     Title: Octopus
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4198
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4199
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4200
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4201
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4202
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4203
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4204
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4205
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4206
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4207
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4208
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4209
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4210
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4211
     Title: 86-90 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4212
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4213
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4214
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4215
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4216
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4217
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4218
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4219
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4220
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4221
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4222
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4223
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4224
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4225
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4226
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4227
     Title: 91-99 Mission Board Timer
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 4229
     Title: Devil in the Cave
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 4254
     Title: Fairy with a stomache
   - Id: 4255
@@ -1643,7 +1643,7 @@ Body:
     Title: Wandering Bard
   - Id: 4296
     Title: Take a Break
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 4297
     Title: "Bard's Story: Some Corporation"
   - Id: 4298
@@ -1684,14 +1684,14 @@ Body:
     Title: Bathroom Sample Studying
   - Id: 5020
     Title: Sample Researching
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5021
     Title: Sample Collecting
   - Id: 5022
     Title: Sample Collecting
   - Id: 5023
     Title: Inspection of the Sample
-    TimeLimit: +6h
+    TimeLimit: +5mn
   - Id: 5024
     Title: Eastern Pool Research
   - Id: 5025
@@ -1702,10 +1702,10 @@ Body:
     Title: Northern Pool Research
   - Id: 5028
     Title: Inspection of the Sample
-    TimeLimit: +12h
+    TimeLimit: +5mn
   - Id: 5029
     Title: Unidentified Creature
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 5030
     Title: The creature's family
   - Id: 5031
@@ -1737,7 +1737,7 @@ Body:
     TimeLimit: +5mn
   - Id: 5044
     Title: Help the old man!
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5045
     Title: Help the old man!
   - Id: 5046
@@ -1776,7 +1776,7 @@ Body:
     Title: The mood of the players-(2)
   - Id: 5060
     Title: Cat Shock
-    TimeLimit: +3mn
+    TimeLimit: +5mn
   - Id: 5061
     Title: Am I scared?
   - Id: 5062
@@ -1793,22 +1793,22 @@ Body:
     Title: Scary image-(2)
   - Id: 5068
     Title: Collecting complaint
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 5069
     Title: Token of honor
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 5070
     Title: Rock Paper Scissors
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5071
     Title: Chamchamcham
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5072
     Title: Kkongnyangkkong
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5073
     Title: Challenging of flag wave
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5074
     Title: Cat's Meal
     Targets:
@@ -1986,7 +1986,7 @@ Body:
     Title: Uncertain chilliness
   - Id: 5141
     Title: Got a curse!!
-    TimeLimit: +2mn
+    TimeLimit: +5mn
   - Id: 5142
     Title: Prototype-(1)
   - Id: 5143
@@ -2037,7 +2037,7 @@ Body:
     Title: Enchant tutorial (3)
   - Id: 5161
     Title: Low Level collection request[Stand by]
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5162
     Title: Low Level collection request
     Targets:
@@ -2075,7 +2075,7 @@ Body:
         Count: 100
   - Id: 5169
     Title: Mid-Level collection request[Stand by]
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5170
     Title: Mid-Level collection request
     Targets:
@@ -2098,7 +2098,7 @@ Body:
         Count: 100
   - Id: 5174
     Title: High level collectiong request[Stand by]
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 5175
     Title: High level collection request
     Targets:
@@ -2147,13 +2147,13 @@ Body:
     Title: Saving the energy crystals
   - Id: 5225
     Title: Saving energy crystal[Stand by]
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 5226
     Title: Saving energy crystal[Stand by]
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 5227
     Title: Saving energy crystal[Stand by]
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 5304
     Title: Police Chief Kesler
   - Id: 5305
@@ -2187,10 +2187,10 @@ Body:
     Title: Piffs's Request
   - Id: 5318
     Title: Come Back Tomorrow
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 5341
     Title: Restriction on the Journey
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 5342
     Title: Help Her
   - Id: 5343
@@ -2211,7 +2211,7 @@ Body:
     Title: Finishing a Head Count
   - Id: 5351
     Title: Restriction on the Journey
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 5352
     Title: Air Purifier
   - Id: 5353
@@ -2226,7 +2226,7 @@ Body:
     Title: Delivered to Z-0
   - Id: 5358
     Title: Restriction on the Journey
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 5359
     Title: Grape Harvest
   - Id: 5360
@@ -2237,14 +2237,14 @@ Body:
     Title: Grape Delivery
   - Id: 5363
     Title: Restriction on the Journey
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 5364
     Title: Subdue Hysterical Patients
   - Id: 5365
     Title: Urgent News
   - Id: 5366
     Title: Restriction on the Journey
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 5367
     Title: Daily Necessities Transport
   - Id: 5368
@@ -2632,7 +2632,7 @@ Body:
     Title: Part-time Job - warm rugs
   - Id: 7047
     Title: Part-time Job - Let's call it a day!
-    TimeLimit: +5h
+    TimeLimit: +5mn
   - Id: 7048
     Title: Thanatos Tower - Burled's Favor
   - Id: 7049
@@ -2706,17 +2706,17 @@ Body:
     Title: Collecting Dragon Eggs
   - Id: 7078
     Title: Collecting Dragon Eggs
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7079
     Title: Finding Refined Bradium
   - Id: 7080
     Title: Finding Refined Bradium
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7081
     Title: Helping the Laphine Craftsman
   - Id: 7082
     Title: Helping the Laphine Craftsman
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7091
     Title: An advice of Diora 01
   - Id: 7092
@@ -2745,22 +2745,22 @@ Body:
     Title: Special task of an assassin guild  3
   - Id: 7104
     Title: Special task of an assassin guild  4
-    TimeLimit: +50mn
+    TimeLimit: +5mn
   - Id: 7105
     Title: Special task of an assassin guild  4
-    TimeLimit: +10mn
+    TimeLimit: +5mn
   - Id: 7106
     Title: Special task of an assassin guild  5
   - Id: 7107
     Title: Special task of an assassin guild  6
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 7108
     Title: Special task of an assassin guild  7
   - Id: 7109
     Title: Special task of an assassin guild  8
   - Id: 7110
     Title: Special task of an assassin guild  9
-    TimeLimit: +10mn
+    TimeLimit: +5mn
     Targets:
       - Mob: HIDEN_PRIEST
         Count: 1
@@ -3017,7 +3017,7 @@ Body:
     Title: Secret Order from Ahat
   - Id: 7200
     Title: Cheshire's call
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7201
     Title: Removing traces
   - Id: 7202
@@ -3030,14 +3030,14 @@ Body:
     Title: Cheshire's Box
   - Id: 7208
     Title: Wait for Cheshire?
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7209
     Title: Forget the box.
   - Id: 7210
     Title: Daily delivery
   - Id: 7211
     Title: Misty Forest Labyrinth Exploration
-    TimeLimit: +2h30mn
+    TimeLimit: +5mn
   - Id: 7212
     Title: Loki's Search
   - Id: 7213
@@ -3134,24 +3134,24 @@ Body:
     Title: Strengthening Equipment
   - Id: 7241
     Title: Toren's Errands - Tomorrow
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7242
     Title: Play with the baby cat
   - Id: 7243
     Title: Nyadventure-Duruduru Compass
   - Id: 7244
     Title: Nyadventure-Duruduru Race
-    TimeLimit: +3mn
+    TimeLimit: +5mn
   - Id: 7245
     Title: Nyadventure-Duruduru Race
-    TimeLimit: +3mn
+    TimeLimit: +5mn
   - Id: 7246
     Title: Nyadventure-I'm coming now.
   - Id: 7247
     Title: Nyadventure-Stop the Bang!
   - Id: 7249
     Title: Nyadventure-Bang! See you next time
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7250
     Title: Nyadventure-Hidden Treasure?
   - Id: 7251
@@ -3168,7 +3168,7 @@ Body:
     Title: Nyadventure-The Sixth piece of Painting
   - Id: 7257
     Title: Nyadventure-Race, Come back tomorrow!
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7258
     Title: Nyadventure-Painting completed
   - Id: 7259
@@ -3189,7 +3189,7 @@ Body:
     Title: Declaration of Chef Nyas
   - Id: 7267
     Title: Appointed time with Cleanyang
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7268
     Title: Find the Cat's hard biscuits!
   - Id: 7269
@@ -3208,7 +3208,7 @@ Body:
     Title: Cat Biscuits - Sand
   - Id: 7276
     Title: Promise to deliver more food
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7281
     Title: List of Errands
   - Id: 7282
@@ -3343,7 +3343,7 @@ Body:
     Title: List of Errands
   - Id: 7349
     Title: Vote
-    TimeLimit: +30mn
+    TimeLimit: +5mn
   - Id: 7350
     Title: Cautious Village
   - Id: 7351
@@ -3380,7 +3380,7 @@ Body:
     Title: Traditional Spiritual Protection and Impudent Girl-1
   - Id: 7367
     Title: Traditional Spiritual Protection and Impudent Girl-2
-    TimeLimit: +10mn
+    TimeLimit: +5mn
   - Id: 7368
     Title: Deliver Spiritual Protection-Pedro
   - Id: 7369
@@ -3397,21 +3397,21 @@ Body:
     Title: Love and Spiritual Protection for All
   - Id: 7375
     Title: Love and Spiritual Protection Continues
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7376
     Title: Old Man and Cast-Iron Caldron-1
   - Id: 7377
     Title: Old Man and Cast-Iron Caldron-2
   - Id: 7378
     Title: Old Man and Cast-Iron Caldron-Regular Trades
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7379
     Title: Peace Preacher
   - Id: 7380
     Title: To Smith a Traditional Spiritual Protection
   - Id: 7381
     Title: High Demand on Spiritual Protection Material
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7382
     Title: Deliver to Pedro
   - Id: 7383
@@ -3430,7 +3430,7 @@ Body:
     Title: Give the Shirt to Maries's Child
   - Id: 7390
     Title: Worried about Maries's Child
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7391
     Title: Jejeling and Jejellopy
     Drops:
@@ -3439,7 +3439,7 @@ Body:
         Rate: 5000
   - Id: 7392
     Title: Collect Jejellopy Regularly
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 7393
     Title: Shiny Silver Blade
     Targets:
@@ -3449,7 +3449,7 @@ Body:
         Count: 10
   - Id: 7394
     Title: Shiny Tomorrow
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7395
     Title: Ghost on the Ferry Ship
   - Id: 7396
@@ -3468,7 +3468,7 @@ Body:
     Title: Mumbaki of Port Malaya
   - Id: 7401
     Title: All Aboard for Perry Sailing
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7402
     Title: Bouquet for Diwata
     Drops:
@@ -3484,7 +3484,7 @@ Body:
         Count: 20
   - Id: 7405
     Title: Get Rid of Jejeling - Same Time Tomorrow
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7406
     Title: Agree to Collecting Bones!
     Drops:
@@ -3501,7 +3501,7 @@ Body:
     Title: Purified Bone
   - Id: 7408
     Title: Agree to Come Back Tomorrow?
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7409
     Title: Cannot Meet Eyes with Him!
     Targets:
@@ -3509,7 +3509,7 @@ Body:
         Count: 10
   - Id: 7410
     Title: Teach Another Lesson Tomorrow!
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7411
     Title: The traveler, Fome's story
   - Id: 7412
@@ -3522,7 +3522,7 @@ Body:
     Title: Laphine's Chief of Staff
   - Id: 7416
     Title: Waiting to meet
-    TimeLimit: +10mn
+    TimeLimit: +5mn
   - Id: 7417
     Title: Kardui's request
   - Id: 7418
@@ -3549,12 +3549,12 @@ Body:
     Title: Yai of the wild
   - Id: 7429
     Title: Wild recent trend!
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7430
     Title: Deliveryman that runs through space
   - Id: 7431
     Title: A mailman never rests!
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7432
     Title: The troublemakers in the land of blooming flowers
     Targets:
@@ -3564,12 +3564,12 @@ Body:
         Count: 5
   - Id: 7433
     Title: Need constant guidance
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7434
     Title: Kardui's big brother
   - Id: 7435
     Title: Time for reading the letter
-    TimeLimit: +3mn
+    TimeLimit: +5mn
   - Id: 7436
     Title: Avant the Scholar of Magics
   - Id: 7437
@@ -3643,7 +3643,7 @@ Body:
     Title: With Lumin
   - Id: 7487
     Title: 30 seconds duel
-    TimeLimit: +30s
+    TimeLimit: +5mn
     Targets:
       - Mob: R_PORING
         Count: 4
@@ -3663,103 +3663,103 @@ Body:
     Title: Cleanup of the mushroom farm
   - Id: 7501
     Title: 1 Suspicious Babe
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: BABY_STRANGE
         Count: 1
   - Id: 7502
     Title: 10 Suspicious Babes
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: BABY_STRANGE
         Count: 10
   - Id: 7503
     Title: 30 Suspicious Babes
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: BABY_STRANGE
         Count: 30
   - Id: 7504
     Title: Destroy 1 Emperium
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: EMPELIUM
         Count: 1
   - Id: 7505
     Title: Destroy 3 Emperiums
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: EMPELIUM
         Count: 3
   - Id: 7506
     Title: Destroy 5 Emperiums
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: EMPELIUM
         Count: 5
   - Id: 7507
     Title: 10 Small Wooden Boxes
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7508
     Title: 20 Small Wooden Boxes
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7509
     Title: 30 Small Wooden Boxes
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7510
     Title: Fight Off a Thief
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: THIEF_PORING
         Count: 1
   - Id: 7511
     Title: Fight Off 10 Thieves
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: THIEF_PORING
         Count: 10
   - Id: 7512
     Title: Fight Off 30 Thieves
-    TimeLimit: +4h
+    TimeLimit: +5mn
     Targets:
       - Mob: THIEF_PORING
         Count: 30
   - Id: 7513
     Title: 10 Paychecks
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7514
     Title: 20 Paychecks
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7515
     Title: 30 Paychecks
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 7516
     Title: A break for Commercial Development
-    TimeLimit: +20mn
+    TimeLimit: +5mn
   - Id: 7517
     Title: Occupy Valkyrie Realm
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7518
     Title: Occupy Luina
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7519
     Title: Occupy Britoniah
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7520
     Title: Occupy Greenwood Lake
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7521
     Title: Occupy Nidabehl
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7522
     Title: Occupy Valfreyja
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7523
     Title: Occupy Gloria
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7524
     Title: Occupy Kafragaten
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 7525
     Title: Valkyrie Realm Challenge 1
     Targets:
@@ -3898,58 +3898,58 @@ Body:
         Count: 30
   - Id: 7543
     Title: Standby for Valkyrie Realm Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7544
     Title: Standby for Valkyrie Realm Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7545
     Title: Standby for Valkyrie Realm Challenge 3
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7546
     Title: Standby for Luina Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7547
     Title: Standby for Luina Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7548
     Title: Standby for Luina Challenge 3
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7549
     Title: Standby for Britoniah Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7550
     Title: Standby for Britoniah Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7551
     Title: Standby for Britoniah Challenge 3
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7552
     Title: Standby for Greenwood Lake Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7553
     Title: Standby for Greenwood Lake Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7554
     Title: Standby for Greenwood Lake Challenge 3
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7555
     Title: Standby for Nidabehl Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7556
     Title: Standby for Nidabehl Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7557
     Title: Standby for Valfreyja Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7558
     Title: Standby for Valfreyja Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7559
     Title: Standby for Gloria Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7560
     Title: Standby for Gloria Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7561
     Title: Kafragaten Challenge 1
     Targets:
@@ -3970,13 +3970,13 @@ Body:
         Count: 30
   - Id: 7563
     Title: Standby for Kafragaten Challenge 1
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7564
     Title: Standby for Kafragaten Challenge 2
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 7568
     Title: Explore the tower
-    TimeLimit: +1h30mn
+    TimeLimit: +5mn
   - Id: 7569
     Title: Treat the injured
   - Id: 7570
@@ -4000,7 +4000,7 @@ Body:
     Title: Morocc castle seal
   - Id: 7577
     Title: Space distortion
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7578
     Title: Rampaging Box
     Targets:
@@ -4021,7 +4021,7 @@ Body:
         Rate: 10000
   - Id: 7580
     Title: Collecting Every Day
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7581
     Title: Eliminating Risks
     Targets:
@@ -4033,7 +4033,7 @@ Body:
         Count: 1
   - Id: 7582
     Title: Daily Cleaning
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7583
     Title: Collecting Mana
     Drops:
@@ -4048,7 +4048,7 @@ Body:
         Rate: 10000
   - Id: 7584
     Title: Unending Battle
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7593
     Title: Demon God Subjugation
     Targets:
@@ -4083,13 +4083,13 @@ Body:
     Title: Fall of the False God
   - Id: 7598
     Title: Caged God
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7599
     Title: Unending Hunt
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7600
     Title: Promising Tomorrow
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7601
     Title: Temple of the Demon God Phase 1
     Targets:
@@ -4106,7 +4106,7 @@ Body:
     Title: Temple of the Demon God Phase 2 Completed
   - Id: 7605
     Title: Guardian's Blessing
-    TimeLimit: +3h
+    TimeLimit: +5mn
   - Id: 7606
     Title: Phantasmagorika Excavator Recruitment
   - Id: 7607
@@ -4124,7 +4124,7 @@ Body:
         Count: 10
   - Id: 7612
     Title: Passage Cleaning - Down
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7613
     Title: Eliminating Risks
     Targets:
@@ -4134,7 +4134,7 @@ Body:
         Count: 15
   - Id: 7614
     Title: Eliminating Risks - Down
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7615
     Title: Core Collection
     Drops:
@@ -4149,12 +4149,12 @@ Body:
         Rate: 5000
   - Id: 7616
     Title: Core Collection - Down
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7617
     Title: Turning In Excavation Report
   - Id: 7618
     Title: Reporting the Results - Down
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7619
     Title: Assisting the Excavation Team
   - Id: 7620
@@ -4177,7 +4177,7 @@ Body:
     Title: New Power Source
   - Id: 7629
     Title: Tomorrow for Tomorrow's Energy
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7641
     Title: Access Permitted
   - Id: 7642
@@ -4200,12 +4200,12 @@ Body:
     Title: Collect Memory Records of Research facilities
   - Id: 7651
     Title: One Memory a Day
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7652
     Title: Collect Memory Records of Laboratories
   - Id: 7653
     Title: One Memory a Day 2
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 7654
     Title: Play Research facilities Memory Records
   - Id: 7655
@@ -4298,7 +4298,7 @@ Body:
     Title: Service Manual
   - Id: 7721
     Title: Cat showoff contest
-    TimeLimit: +10mn
+    TimeLimit: +5mn
     Targets:
       - Mob: DR_LUNATIC
         Count: 3
@@ -4924,7 +4924,7 @@ Body:
     Title: Handworked jewels
   - Id: 8253
     Title: Language translation device
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 8254
     Title: with a light heart and body
   - Id: 8255
@@ -5062,14 +5062,14 @@ Body:
     Title: Strange Hydra
   - Id: 9029
     Title: "Strange Hydra : present conditions"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 9030
     Title: Find a puppy
   - Id: 9031
     Title: Find a puppy
   - Id: 9032
     Title: Find a puppy
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 9155
     Title: Getting materials for the Jaty Crown
   - Id: 9156
@@ -5106,7 +5106,7 @@ Body:
     Title: Enchanted Items
   - Id: 9173
     Title: Tutorial Timer Cooldown
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 9222
     Title: Get Rid of Bangungot from Hospital 2F
     Targets:
@@ -5114,10 +5114,10 @@ Body:
         Count: 1
   - Id: 9223
     Title: Will there be Peace at the Hospital?
-    TimeLimit: +7d
+    TimeLimit: +5mn
   - Id: 9224
     Title: Explore Hospital 2F
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 9225
     Title: Mystery Robbery Incident 1
   - Id: 9226
@@ -5278,10 +5278,10 @@ Body:
     Title: Encounter Loki
   - Id: 9315
     Title: Exploring the dimensional gap
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 9316
     Title: Re-exploring the crack of spaces
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 9318
     Title: Pursuing Hiding Morocc
     Targets:
@@ -5289,7 +5289,7 @@ Body:
         Count: 1
   - Id: 9319
     Title: Pursuing Hiding Morocc Continues
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 9418
     Title: Attack Sky Fortress Invading Prontera
     Targets:
@@ -5304,7 +5304,7 @@ Body:
     Title: Search for shards of Gigantes
   - Id: 9336
     Title: Go back to Professor Bernhard
-    TimeLimit: +7d
+    TimeLimit: +5mn
   - Id: 9337
     Title: Wrapping up the Adventure
   - Id: 9457
@@ -5504,12 +5504,12 @@ Body:
     Title: Escape from the reality, into the broad world
   - Id: 10085
     Title: Escape from the reality, into the broad world
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 10086
     Title: Escape from the reality, into the broad world
   - Id: 10087
     Title: Escape from the reality, into the broad world
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 10088
     Title: Escape from the reality, into the broad world
   - Id: 10089
@@ -5807,7 +5807,7 @@ Body:
     Title: Secret note of Bazet
   - Id: 11104
     Title: Resting time
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11105
     Title: Tendrilrion skin
   - Id: 11106
@@ -5826,7 +5826,7 @@ Body:
     Title: Job changing to Warlock
   - Id: 11113
     Title: Until radering is functioning
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11114
     Title: "Request : Hunt Honet"
     Targets:
@@ -5879,34 +5879,34 @@ Body:
         Count: 30
   - Id: 11124
     Title: "Request : Hunt Honet - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11125
     Title: "Request : Hunt Condor - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11126
     Title: "Request : Hunt Grasshopper's Leg - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11127
     Title: "Request : Hunt Worm Tail - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11128
     Title: "Request : Hunt Spore - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11129
     Title: "Request : Pest Control - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11130
     Title: "Request : Hunt Muka - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11131
     Title: "Request : Hunt Farmiliar - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11132
     Title: "Request : Collect Feather - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11133
     Title: "Request : Collect Poison Spore - Complete"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11135
     Title: Looking for Maestro Song
   - Id: 11136
@@ -5995,12 +5995,12 @@ Body:
     Title: Supply Shortage
   - Id: 11175
     Title: Supply Shortage
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 11176
     Title: For my friends
   - Id: 11182
     Title: Theore's Report
-    TimeLimit: +1mn
+    TimeLimit: +5mn
   - Id: 11183
     Title: Theore's Favor
   - Id: 11184
@@ -6115,7 +6115,7 @@ Body:
     Title: Malangdo Fruits
   - Id: 11239
     Title: Malangdo Fruits
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11240
     Title: Repair of cracks
   - Id: 11241
@@ -6124,12 +6124,12 @@ Body:
     Title: Repair of cracks
   - Id: 11243
     Title: Repair of cracks
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11244
     Title: Soft Jelly
   - Id: 11245
     Title: Soft Jelly
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11255
     Title: Otter Ssamsun
   - Id: 11284
@@ -6189,7 +6189,7 @@ Body:
         Count: 1
   - Id: 11310
     Title: Eclage's Entrance
-    TimeLimit: +30s
+    TimeLimit: +5mn
   - Id: 11311
     Title: Eclage's Entrance
   - Id: 11312
@@ -6345,12 +6345,12 @@ Body:
     Title: Let the Specialists Handle It
   - Id: 11377
     Title: Act of Kindness
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 11378
     Title: "Trick or treat "
   - Id: 11379
     Title: Final Room
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 11380
     Title: Final Room
     Targets:
@@ -6663,25 +6663,25 @@ Body:
     Title: Pass to the Lab
   - Id: 12058
     Title: Admission Restricted to the 102 Tower
-    TimeLimit: +7d
+    TimeLimit: +5mn
   - Id: 12059
     Title: Orc's Memory Time Limit
-    TimeLimit: +2h
+    TimeLimit: +5mn
   - Id: 12060
     Title: Today's Fishing Closed
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12061
     Title: Concentration
-    TimeLimit: +10s
+    TimeLimit: +5mn
   - Id: 12062
     Title: Today's Mining Closed
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12070
     Title: Limited time for enter
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 12071
     Title: Stamp a seal on the attendance book
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12072
     Title: Hunt tharafrog
     Targets:
@@ -6931,25 +6931,25 @@ Body:
     Title: Rage of the pub owner
   - Id: 12159
     Title: Quest record from Laponte
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12160
     Title: Quest record from Kalipo
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12161
     Title: Quest record from Pura
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12162
     Title: Quest record from Tragis
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12163
     Title: Quest record from Calyon
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12164
     Title: Quest record from Moltuka
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12165
     Title: Dizziness
-    TimeLimit: +6h
+    TimeLimit: +5mn
   - Id: 12166
     Title: Tree Root Doc.
   - Id: 12167
@@ -7052,7 +7052,7 @@ Body:
     Title: Stone Heart Doc.
   - Id: 12216
     Title: Pouty Jahbong
-    TimeLimit: +6h
+    TimeLimit: +5mn
   - Id: 12217
     Title: Request - Traces of wild boar hunt
   - Id: 12218
@@ -7092,7 +7092,7 @@ Body:
         Count: 7
   - Id: 12230
     Title: Mora Monster Hunt
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12231
     Title: Insect Feeler Collecting
   - Id: 12232
@@ -7115,10 +7115,10 @@ Body:
     Title: Sticky Mucus Collecting
   - Id: 12241
     Title: Mora Item Request 1
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12242
     Title: Mora Item Request 2
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12243
     Title: Missing Information on Tajareu
   - Id: 12244
@@ -7141,10 +7141,10 @@ Body:
     Title: Missing Information on Tuale
   - Id: 12253
     Title: Missing Person Search Time Limit
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12254
     Title: Now it's cleaning
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 12255
     Title: Hunt deep sea crab
     Targets:
@@ -7227,19 +7227,19 @@ Body:
         Count: 1
   - Id: 12271
     Title: In progress general culvert single day service
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12272
     Title: In progress hard culvert single day service
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12273
     Title: In progress general culvert weekly service
-    TimeLimit: +6d17h
+    TimeLimit: +5mn
   - Id: 12274
     Title: In progress hard culvert weekly service
-    TimeLimit: +6d17h
+    TimeLimit: +5mn
   - Id: 12278
     Title: Towards Bakonawa Lake...
-    TimeLimit: +7d
+    TimeLimit: +5mn
   - Id: 12279
     Title: Get Rid of Bakonawa
     Targets:
@@ -7319,7 +7319,7 @@ Body:
     Title: Meeting Hugin
   - Id: 12317
     Title: Trace of Time Travel
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12318
     Title: Corrupted Soul Hunt
     Targets:
@@ -7338,27 +7338,27 @@ Body:
     Title: Space Distortion
   - Id: 12325
     Title: Faceworm's Nest after-effects
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12326
     Title: The owner of old ring
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12327
     Title: The memory of old photo album
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12328
     Title: Dol-Seoi's Sorrow
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12329
     Title: Keaton's Bracelet
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 12330
     Title: Skull-faced Girl
   - Id: 12331
     Title: Trail of Toy Factory
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12334
     Title: Trace of Time Travel
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12335
     Title: Space Distortion
   - Id: 12338
@@ -7387,7 +7387,7 @@ Body:
     Title: Strange Ancient Science
   - Id: 12347
     Title: Trace of Laboratory Access
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 12363
     Title: ?????? ?? ??
   - Id: 12368
@@ -7500,7 +7500,7 @@ Body:
     Title: RWC2011Card Gathering
   - Id: 13001
     Title: RWC2011Card Gathering - Hold
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 13002
     Title: Brigan collecting
   - Id: 13003
@@ -7510,7 +7510,7 @@ Body:
         Count: 30
   - Id: 13004
     Title: Carat Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13005
     Title: Arclouse Request
     Targets:
@@ -7518,7 +7518,7 @@ Body:
         Count: 22
   - Id: 13006
     Title: Arclouse Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13007
     Title: Anolian Request
     Targets:
@@ -7526,7 +7526,7 @@ Body:
         Count: 30
   - Id: 13008
     Title: Anolian Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13009
     Title: Sting Request
     Targets:
@@ -7534,7 +7534,7 @@ Body:
         Count: 30
   - Id: 13010
     Title: Sting Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13011
     Title: Majoruros Request
     Targets:
@@ -7542,7 +7542,7 @@ Body:
         Count: 30
   - Id: 13012
     Title: Majoruros Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13013
     Title: Pinguicula Request
     Targets:
@@ -7550,7 +7550,7 @@ Body:
         Count: 30
   - Id: 13014
     Title: Pinguicula Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13015
     Title: Luciola Vespa Request
     Targets:
@@ -7558,7 +7558,7 @@ Body:
         Count: 30
   - Id: 13016
     Title: Luciola Vespa Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13017
     Title: Desert Wolf Request
     Targets:
@@ -7566,7 +7566,7 @@ Body:
         Count: 30
   - Id: 13018
     Title: Desert Wolf Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13019
     Title: Snowier Request
     Targets:
@@ -7574,7 +7574,7 @@ Body:
         Count: 30
   - Id: 13020
     Title: Snowier Request timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13021
     Title: Ice Titan Request
     Targets:
@@ -7582,7 +7582,7 @@ Body:
         Count: 30
   - Id: 13022
     Title: Ice Titan Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13023
     Title: Nightmare Terror Request
     Targets:
@@ -7590,7 +7590,7 @@ Body:
         Count: 30
   - Id: 13024
     Title: Nightmare Terror Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13025
     Title: Flying Deleter Request
     Targets:
@@ -7598,7 +7598,7 @@ Body:
         Count: 30
   - Id: 13026
     Title: Deleter Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13040
     Title: Loli Ruri Request
     Targets:
@@ -7606,7 +7606,7 @@ Body:
         Count: 30
   - Id: 13041
     Title: Loli Ruri Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13042
     Title: Medusa Request
     Targets:
@@ -7614,7 +7614,7 @@ Body:
         Count: 30
   - Id: 13043
     Title: Medusa Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13044
     Title: Anubis Request
     Targets:
@@ -7622,7 +7622,7 @@ Body:
         Count: 20
   - Id: 13045
     Title: Anubis Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13046
     Title: Tendrilion Request
     Targets:
@@ -7630,7 +7630,7 @@ Body:
         Count: 1
   - Id: 13047
     Title: Tendrilion Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13048
     Title: Tendrilion Request
     Targets:
@@ -7638,7 +7638,7 @@ Body:
         Count: 1
   - Id: 13049
     Title: Tendrilion Request Timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13050
     Title: The Laphine that loves the land
   - Id: 13051
@@ -7659,15 +7659,15 @@ Body:
     Title: Troublemaker New Oz
   - Id: 13059
     Title: End of project
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 13060
     Title: Safety confirmation complete!
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 13061
     Title: Food support
   - Id: 13062
     Title: Food support - complete
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 13063
     Title: Dusting off
     Targets:
@@ -7675,12 +7675,12 @@ Body:
         Count: 20
   - Id: 13064
     Title: Dusting off - complete
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 13065
     Title: Collecting a souvenir
   - Id: 13066
     Title: This is enough for souvenirs
-    TimeLimit: +22h
+    TimeLimit: +5mn
   - Id: 13067
     Title: Raydric research
     Targets:
@@ -7688,7 +7688,7 @@ Body:
         Count: 30
   - Id: 13068
     Title: Raydric research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13069
     Title: Khalitzburg research
     Targets:
@@ -7696,7 +7696,7 @@ Body:
         Count: 30
   - Id: 13070
     Title: Khalitzburg research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13071
     Title: Wander Man research
     Targets:
@@ -7704,7 +7704,7 @@ Body:
         Count: 30
   - Id: 13072
     Title: Wander Man research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13073
     Title: Ancient Mimic research
     Targets:
@@ -7712,7 +7712,7 @@ Body:
         Count: 30
   - Id: 13074
     Title: Ancient Mimic research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13075
     Title: Death Word research
     Targets:
@@ -7720,7 +7720,7 @@ Body:
         Count: 30
   - Id: 13076
     Title: Death Word research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13077
     Title: Owl Baron research
     Targets:
@@ -7728,12 +7728,12 @@ Body:
         Count: 20
   - Id: 13078
     Title: Owl Baron research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13079
     Title: Bloody Page Research
   - Id: 13080
     Title: Bloody Page Research - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13081
     Title: Dark Pinguicula research
     Targets:
@@ -7741,7 +7741,7 @@ Body:
         Count: 30
   - Id: 13082
     Title: Dark Pinguicula research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13083
     Title: Nepenthes research
     Targets:
@@ -7749,7 +7749,7 @@ Body:
         Count: 30
   - Id: 13084
     Title: Nepenthes research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13085
     Title: Naga research
     Targets:
@@ -7757,7 +7757,7 @@ Body:
         Count: 30
   - Id: 13086
     Title: Naga research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13087
     Title: Centipede Larva research
     Targets:
@@ -7765,7 +7765,7 @@ Body:
         Count: 20
   - Id: 13088
     Title: Centipede Larva research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13089
     Title: Cornus research
     Targets:
@@ -7773,12 +7773,12 @@ Body:
         Count: 30
   - Id: 13090
     Title: Cornus research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13091
     Title: Mystic Horn Research
   - Id: 13092
     Title: Mystic Horn Research - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13093
     Title: Ancient Mummy research
     Targets:
@@ -7786,7 +7786,7 @@ Body:
         Count: 30
   - Id: 13094
     Title: Ancient Mummy research - timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13095
     Title: Geffenia expedition
     Targets:
@@ -7798,7 +7798,7 @@ Body:
         Count: 10
   - Id: 13096
     Title: Geffenia expedition - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13097
     Title: Juperos expedition
     Targets:
@@ -7810,12 +7810,12 @@ Body:
         Count: 30
   - Id: 13098
     Title: Juperos expedition - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13099
     Title: Fragments and Rusty Screw
   - Id: 13100
     Title: Fragments and Rusty Screw - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13101
     Title: The way of Taekwon
   - Id: 13102
@@ -7846,16 +7846,16 @@ Body:
     Title: Abyss Lake Search - Reporting results
   - Id: 13115
     Title: Thanatos Tower Search - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13116
     Title: Rachel holy ground Search - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13117
     Title: Unknown island Search - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13118
     Title: Abyss Lake Search - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13119
     Title: Combat Baroness of Retribution
     Targets:
@@ -7863,7 +7863,7 @@ Body:
         Count: 30
   - Id: 13120
     Title: Combat Baroness of Retribution - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13121
     Title: Combat Lady Solace
     Targets:
@@ -7871,7 +7871,7 @@ Body:
         Count: 30
   - Id: 13122
     Title: Combat Lady Solace - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13123
     Title: Combat Mistress of Shelter
     Targets:
@@ -7879,7 +7879,7 @@ Body:
         Count: 30
   - Id: 13124
     Title: Combat Mistress of Shelter - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13125
     Title: Combat Dame of Sentinel
     Targets:
@@ -7887,7 +7887,7 @@ Body:
         Count: 30
   - Id: 13126
     Title: Combat Dame of Sentinel - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13127
     Title: Combat Vanberk and Isilla
     Targets:
@@ -7897,7 +7897,7 @@ Body:
         Count: 20
   - Id: 13128
     Title: Combat Vanberk and Isilla - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13129
     Title: Combat Hodremlin
     Targets:
@@ -7905,7 +7905,7 @@ Body:
         Count: 30
   - Id: 13130
     Title: Combat Hodremlin - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13131
     Title: Combat Agav and Echio
     Targets:
@@ -7915,7 +7915,7 @@ Body:
         Count: 20
   - Id: 13132
     Title: Combat Agav and Echio - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13133
     Title: Combat Ragged Zombie
     Targets:
@@ -7923,7 +7923,7 @@ Body:
         Count: 30
   - Id: 13134
     Title: Combat Ragged Zombie - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13135
     Title: Combat Zombie Slaughter
     Targets:
@@ -7931,7 +7931,7 @@ Body:
         Count: 30
   - Id: 13136
     Title: Combat Zombie Slaughter - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13137
     Title: Combat Banshee
     Targets:
@@ -7939,7 +7939,7 @@ Body:
         Count: 30
   - Id: 13138
     Title: Combat Banshee - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13139
     Title: Combat Ferus and Bewler
     Targets:
@@ -7949,7 +7949,7 @@ Body:
         Count: 30
   - Id: 13140
     Title: Combat Ferus and Bewler - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13141
     Title: Combat Acidus
     Targets:
@@ -7959,7 +7959,7 @@ Body:
         Count: 30
   - Id: 13142
     Title: Combat Acidus - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13143
     Title: Egnigem Story
     Targets:
@@ -7967,7 +7967,7 @@ Body:
         Count: 30
   - Id: 13144
     Title: Egnigem Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13145
     Title: Armeyer Story
     Targets:
@@ -7975,7 +7975,7 @@ Body:
         Count: 30
   - Id: 13146
     Title: Armeyer Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13147
     Title: Whikebain Story
     Targets:
@@ -7983,7 +7983,7 @@ Body:
         Count: 30
   - Id: 13148
     Title: Whikebain Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13149
     Title: Kavach Story
     Targets:
@@ -7991,7 +7991,7 @@ Body:
         Count: 30
   - Id: 13150
     Title: Kavach Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13151
     Title: Errende Story
     Targets:
@@ -7999,7 +7999,7 @@ Body:
         Count: 30
   - Id: 13152
     Title: Errende Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13153
     Title: Laurell Story
     Targets:
@@ -8007,7 +8007,7 @@ Body:
         Count: 30
   - Id: 13154
     Title: Laurell Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13155
     Title: Morocc Story1
     Targets:
@@ -8015,7 +8015,7 @@ Body:
         Count: 30
   - Id: 13156
     Title: Morocc Story1 - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13157
     Title: Morocc Story2
     Targets:
@@ -8023,7 +8023,7 @@ Body:
         Count: 30
   - Id: 13158
     Title: Morocc Story2 - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13159
     Title: Morocc Story3
     Targets:
@@ -8031,7 +8031,7 @@ Body:
         Count: 30
   - Id: 13160
     Title: Morocc Story3 - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13161
     Title: Uni-horn Scaraba Story
     Targets:
@@ -8039,7 +8039,7 @@ Body:
         Count: 30
   - Id: 13162
     Title: Uni-horn Scaraba Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13163
     Title: Horn Scaraba Story
     Targets:
@@ -8047,7 +8047,7 @@ Body:
         Count: 30
   - Id: 13164
     Title: Horn Scaraba Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13165
     Title: Antler Scaraba Story
     Targets:
@@ -8055,7 +8055,7 @@ Body:
         Count: 30
   - Id: 13166
     Title: Antler Scaraba Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13167
     Title: Rake horn Scaraba Story
     Targets:
@@ -8063,19 +8063,19 @@ Body:
         Count: 30
   - Id: 13168
     Title: Rake horn Scaraba Story - Wait
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 13181
     Title: Nightmarish Jitterbug
   - Id: 13182
     Title: "Nightmarish Jitterbug: Waiting"
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 13183
     Title: "Nightmarish Jitterbug: Completed"
   - Id: 13184
     Title: Charleston Factory
   - Id: 13185
     Title: Charleston Factory - Hold
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 13186
     Title: Charleston Factory - Complete
   - Id: 13187
@@ -8085,7 +8085,7 @@ Body:
         Count: 50
   - Id: 13188
     Title: Deal with the Staff - Hold
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 13195
     Title: Monthly Brigan
   - Id: 13196
@@ -8096,7 +8096,7 @@ Body:
     Title: "Monthly Brigan : Krotzel's Request"
   - Id: 13199
     Title: Krotzel's Request - Complete
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 13200
     Title: "Monthly Brigan : Rookie's Request"
     Targets:
@@ -8104,7 +8104,7 @@ Body:
         Count: 30
   - Id: 13201
     Title: Rookie's Request - Complete
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 13202
     Title: "Monthly Brigan : Photo Journalist's Request"
     Targets:
@@ -8112,12 +8112,12 @@ Body:
         Count: 30
   - Id: 13203
     Title: Photo Journalist's Request - Complete
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 13204
     Title: "Monthly Brigan : Grylls' Request"
   - Id: 13205
     Title: Grylls' Request - Complete
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 14118
     Title: Wuhari's concern
   - Id: 14119
@@ -8571,29 +8571,29 @@ Body:
     Title: Mysterious Device
   - Id: 14684
     Title: Mysterious Device
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 14685
     Title: Mysterious Device
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 14686
     Title: Mysterious Device
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 14687
     Title: Mysterious Device
-    TimeLimit: +1h
+    TimeLimit: +5mn
   - Id: 15000
     Title: Experiencing abnormal statuses
   - Id: 15001
     Title: Hold your breath
-    TimeLimit: +20s
+    TimeLimit: +5mn
   - Id: 15002
     Title: "Memorial dungeon: Sara's Memory"
-    TimeLimit: +20h
+    TimeLimit: +5mn
   - Id: 15003
     Title: Adventurer leon
   - Id: 15005
     Title: "Memorial Dungeon: Isle of Bios"
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 15006
     Title: Isle of Bios Exploration
   - Id: 15007
@@ -8604,7 +8604,7 @@ Body:
     TimeLimit: +5mn
   - Id: 15050
     Title: "Memorial Dungeon: Airship Assault"
-    TimeLimit: +23h
+    TimeLimit: +5mn
   - Id: 15051
     Title: "Memorial Dungeon: Airship Assault"
     TimeLimit: +5mn
@@ -8616,7 +8616,7 @@ Body:
     Title: "Christmas : Prepare the festival!"
   - Id: 15059
     Title: "Christmas : Cooldown Timer"
-    TimeLimit: +1d
+    TimeLimit: +5mn
   - Id: 15060
     Title: "Christmas : Kwami has joined"
   - Id: 15061
@@ -9859,10 +9859,10 @@ Body:
         Count: 150
   - Id: 60200
     Title: Endless Tower Effect
-    TimeLimit: +7d
+    TimeLimit: +5mn
   - Id: 60201
     Title: Endless Tower Time Limit
-    TimeLimit: +4h
+    TimeLimit: +5mn
   - Id: 60211
     Title: Thor Volcano base camp
   - Id: 60212
@@ -9931,4 +9931,4 @@ Body:
     Title: Bathroom Ghost
   - Id: 62238
     Title: Midgardian Mercenary timer
-    TimeLimit: +1h
+    TimeLimit: +5mn
