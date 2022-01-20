@@ -25685,7 +25685,7 @@ Body:
       - Item: Goast_Chill
         Rate: 100
       - Item: Will_Of_Warrior
-        Rate: 1000
+        Rate: 600
       - Item: Ruber
         Rate: 100
       - Item: Seyren_Card
@@ -25785,7 +25785,7 @@ Body:
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 1000
+        Rate: 600
       - Item: Clothes_Of_The_Lord
         Rate: 1
       - Item: Carnium
@@ -25885,7 +25885,7 @@ Body:
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 1000
+        Rate: 600
       - Item: Goast_Chill
         Rate: 100
       - Item: Falken_Blitz
@@ -25935,7 +25935,7 @@ Body:
       - Item: Unstable_Energy_Particle
         Rate: 1000
       - Item: Will_Of_Warrior
-        Rate: 1000
+        Rate: 600
       - Item: Pair_Of_Red_Ribbon
         Rate: 1
       - Item: Goast_Chill
@@ -48109,7 +48109,7 @@ Body:
       - Item: Bible_Of_Promise2
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Randel_Card
         Rate: 1
         StealProtected: true
@@ -48158,7 +48158,7 @@ Body:
       - Item: Red_Ether_Bag
         Rate: 1
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Flamel_Card
         Rate: 1
         StealProtected: true
@@ -48207,7 +48207,7 @@ Body:
       - Item: Mental_Stick
         Rate: 1
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Ceila_Card
         Rate: 1
         StealProtected: true
@@ -48257,7 +48257,7 @@ Body:
       - Item: Berserk
         Rate: 5
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Chen_Card
         Rate: 1
         StealProtected: true
@@ -48308,7 +48308,7 @@ Body:
       - Item: Black_Wing
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Gertie_Card
         Rate: 1
         StealProtected: true
@@ -48357,7 +48357,7 @@ Body:
       - Item: Green_Whistle
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Alphoccio_Card
         Rate: 1
         StealProtected: true
@@ -48406,7 +48406,7 @@ Body:
       - Item: Stem_Whip
         Rate: 10
       - Item: Blood_Thirst
-        Rate: 300
+        Rate: 500
       - Item: Trentini_Card
         Rate: 1
         StealProtected: true
@@ -62520,7 +62520,7 @@ Body:
       - Item: High_Weapon_Box
         Rate: 15
       - Item: Will_Of_Warrior
-        Rate: 1000
+        Rate: 600
       - Item: Goast_Chill
         Rate: 100
       - Item: Falken_Blitz

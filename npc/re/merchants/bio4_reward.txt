@@ -147,10 +147,10 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			mes "These are the armors I have.";
 			next;
 			for(.@i = 1; .@i < 8; .@i++) {
-				if (((.@i == 1 || .@i == 5) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) || 
-				    ((.@i == 2 || .@i == 3) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				    ((.@i == 4 || .@i == 7) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				    ((.@i == 6) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
+				if (((.@i == 1 || .@i == 5) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) || 
+				    ((.@i == 2 || .@i == 3) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				    ((.@i == 4 || .@i == 7) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				    ((.@i == 6) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
 					.@armor$[.@i] = "^0000FF";
 				} else {
 					.@armor$[.@i] = "^FF0000";
@@ -177,44 +177,44 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 					mes "<<Giant Shield[1]>>";
 					mes "Decrease 5% of Damage from Large Monsters, if Refine Lv is 9, decrease 5% more of the Damage.";
 					mes "Shield / Def 130 / Weight 280 / Required Lv 100 / Socket 1 / for 3rd Swordman Classes";
-					callsub L_Reward, 2160, 100, 50, 35; //Giant_Shield
+					callsub L_Reward, 2160, 3, 3, 1; //Giant_Shield
 					break;
 				case 3:
 					mes "<<Ancient Book of Geffenia-Water[1]>>";
 					mes "INT + 1, MDEF + 2. If Original INT point is 120, MATK + 10, MHP + 800.";
 					mes "When equipping with Lacryma Stick, the casting % from Storm Gust, Frost Misty and Jack frost will discount equivalent to 4 times Refine Lv.";
 					mes "Shield / Def 30 / Weight 100 / Required Lv 100 / Socket 1 / for Warlock";
-					callsub L_Reward, 2161, 100, 50, 22; //Geffenia_Book_Water
+					callsub L_Reward, 2161, 3, 3, 1; //Geffenia_Book_Water
 					break;
 				case 4:
 					mes "<<Bible of Promise(2nd Vol.)[1]>>";
 					mes "MDEF + 5, Allow to use 'Odin's Power'(Lv 2). Increase 5% more for Heal skill.";
 					mes "Shield / Def 20 / Weight 50 / Required Lv 140 / Socket 1 / for Archbishop";
-					callsub L_Reward, 2162, 100, 50, 22; //Bible_Of_Promise2
+					callsub L_Reward, 2162, 3, 3, 1; //Bible_Of_Promise2
 					break;
 				case 5:
 					mes "<<Salvage Cape[0]>>";
 					mes "Allow to use 'Cicada Skin Shed'(Lv 1). Cool down time for this skill will be 30 seconds. When equipping it, SP consumption for using any skill will be doubled, When taking it off, SP - 1200.";
 					mes "Garment / Def 1 / Weight 40 / Required Lv 130 / Socket 0 / for Archbishop";
-					callsub L_Reward, 2582, 300, 300, 400; //Salvage_Cape
+					callsub L_Reward, 2582, 3, 3, 1; //Salvage_Cape
 					break;
 				case 6:
 					mes "<<Assassin's Handcuffs[1]>>";
 					mes "MSP + 20, CRI + 3. When equipping with Krishna, ATK + 50, ATK power from 'Sonic Blow' 50% increased, FLEE - 30. When equipping with Cakram CRI + 4, Critical ATK power 40% increased, MHP - 10%.";
 					mes "Accessory / Def 3 / Weight 40 / Required Lv 100 / Socket 1 / for Guillotine Cross";
-					callsub L_Reward, 2892, 100, 50, 35; //Assassin_Handcuffs
+					callsub L_Reward, 2892, 3, 3, 1; //Assassin_Handcuffs
 					break;
 				case 7:
 					mes "<<Green Operating Gown[1]>>";
 					mes "DEX + 1, MSP + 30. Equipping with Scalpel will let to drop 'Immortal Heart', 'Alcohol' with a certain chance when hunting Human, Animal type monsters. Refine Lv affects the drop rate.";
 					mes "Armor / Def 66 / Weight 66 / Required Lv 100 / Socket 1 / for Generic";
-					callsub L_Reward, 15044, 100, 50, 30; //Green_Operation_Coat
+					callsub L_Reward, 15044, 3, 3, 1; //Green_Operation_Coat
 					break;
 				case 8:
 					mes "<<Ancient Gold Decoration[1]>>";
 					mes "If the base lv is 150, All State + 2. for Swordman, Merchant, Thief Classes ATK + 8%, for Magician, Acolyte classes MATK + 8%, Heal Power + 7%, for Archer classes DEX + 3, Long Distance ATK power + 10%.";
 					mes "Helm / Def 7 / Location - Upper / Weight 40 / Required Lv 100 / Socket 1 / for 3rd Job Classes";
-					callsub L_Reward, 18570, 300, 300, 400; //Ancient_Gold_Deco
+					callsub L_Reward, 18570, 5, 5, 1; //Ancient_Gold_Deco
 					break;
 				}
 				if (.@break) {
@@ -231,11 +231,11 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 			mes "These are the weapons I've got.";
 			next;
 			for(.@i = 1; .@i < 15; .@i++) {
-				if (((.@i == 1) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				((.@i == 2) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				((.@i == 3 || .@i == 4 || (.@i >= 8 && .@i < 11) || .@i >= 12) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				((.@i == 5 || .@i == 7 || .@i == 11) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
-				((.@i == 6) && (countitem(6469) >= 5) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
+				if (((.@i == 1) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 2) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 3 || .@i == 4 || (.@i >= 8 && .@i < 11) || .@i >= 12) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 5 || .@i == 7 || .@i == 11) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1)) ||
+				((.@i == 6) && (countitem(6469) >= 3) && (countitem(6470) >= 3) && (countitem(6471) >= 1))) {
 					.@weapon$[.@i] = "^0000FF";
 				} else {
 					.@weapon$[.@i] = "^FF0000";
@@ -269,85 +269,85 @@ lighthalzen,342,291,4	script	Weird old man#Bio4Reward	4_M_EINOLD,{
 					mes "<<Agent Katar[1]>>";
 					mes "Every 2 Original LUK points gets additional 1 HIT point";
 					mes "Katar / ATK 170 / Weight 120 / Weapon Lv 3 / Required Lv 100 / Socket 1 / for Guillotine Cross";
-					callsub L_Reward, 1290, 50, 100, 10; //Agent_Katar
+					callsub L_Reward, 1290, 3, 3, 1; //Agent_Katar
 					break;
 				case 3:
 					mes "<<Guillotine Katar[1]>>";
 					mes "DEX + 2. FLEE - 30. 50% more damage to Human monsters. Add 30% more damage for Cross Impact skill.";
 					mes "Katar / ATK 200 / Weight 150 / Weapon Lv 4 / Required Lv 140 / Socket 1 / for Guillotine Cross";
-					callsub L_Reward, 1291, 50, 100, 85; //Guillotine_Katar
+					callsub L_Reward, 1291, 3, 3, 1; //Guillotine_Katar
 					break;
 				case 4:
 					mes "<<Ygnus Stale[1]>>";
 					mes "When doing short distance attack, cast Burn status to the player and to the enemy with a certain chance.";
 					mes "Two-Handed Axe / ATK 250 / Weight 190 / Fire Property / Weapon Lv 4 / Required Lv 95 / Socket 1 / for High Swordman/Merchant Classes";
-					callsub L_Reward, 1392, 50, 100, 35; //Ygnus_Stale
+					callsub L_Reward, 1392, 3, 3, 1; //Ygnus_Stale
 					break;
 				case 5:
 					mes "<<End Sektura[1]>>";
 					mes "When doing short distance attack, cast Freezing to the player and to the enemy with a certain chance.";
 					mes "Two-Handed Axe / ATK 250 / Weight 190 / Water Property / Weapon Lv 4 / Required Lv 95 / Socket 1 / for High Swordman/Merchant Classes";
-					callsub L_Reward, 1393, 50, 100, 35; //End_Sektura
+					callsub L_Reward, 1393, 3, 3, 1; //End_Sektura
 					break;
 				case 6:
 					mes "<<Cannon Spear[1]>>";
 					mes "MSP - 100, Increases 10% of Damage impacted with Cannon Spear, Additional ATK power of Cannon Spear equivalent to 3 times Refine Lv.";
 					mes "One-Handed Spear / ATK 180 / Weight 160 / Weapon Lv 4 / Required Lv 100 / Socket 1 / for Royal Guard";
-					callsub L_Reward, 1435, 50, 100, 40; //Cannon_Spear
+					callsub L_Reward, 1435, 3, 3, 1; //Cannon_Spear
 					break;
 				case 7:
 					mes "<<Giant Lance[0]>>";
 					mes "ASPD - 10, When it's taken off, the character gets SP - 600. 20 more seconds of Delay time exists before using back the Clashing Spiral. If the original STR points are 120, + ATK 300.";
 					mes "Two-Handed Lance / ATK 20 / Weight 2000 / Weapon Lv 4 / Required Lv 140 / Socket 0 / for Rune Knight";
-					callsub L_Reward, 1490, 300, 300, 400; //Giant_Lance
+					callsub L_Reward, 1490, 3, 3, 1; //Giant_Lance
 					break;
 				case 8:
 					mes "<<Chilly Spell Book[2]>>";
 					mes "MATK + 160, DEX + 1. Increases ATK % of Cold Bolt, Diamond Dust equivalent to 3 times Refine Lv, also SP consumption from those skills increased equivalent to 5 times Refine Lv. Undestroyable.";
 					mes "Book / ATK 100 / Weight 100 / Water Property / Weapon Lv 4 / Required Lv 100 / Socket 2 / for Sorcerer";
-					callsub L_Reward, 1584, 50, 100, 40; //Chilly_Spell_Book
+					callsub L_Reward, 1584, 3, 3, 1; //Chilly_Spell_Book
 					break;
 				case 9:
 					mes "<<Recovery Light[1]>>";
 					mes "MATK + 160. Depending on its Refine Lv, Heal Ability and SP consumption for the skill increased. Indestructible.";
 					mes "One-Handed Staff / ATK 30 / Weight 40 / Saint Property / Weapon Lv 4 / Required Lv 110 / Socket 1 / for Archbishop.";
-					callsub L_Reward, 1659, 50, 100, 35; //Recovery_Light
+					callsub L_Reward, 1659, 3, 3, 1; //Recovery_Light
 					break;
 				case 10:
 					mes "<<Aztoe Nail[0]>>";
 					mes "MATK + 80. For Physical Melee Attack, cast Freezing to the target with a certain chance. The chance is affected by Refine Lv.";
 					mes "Dagger / ATK 160 / Weight 50 / Wind Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Thief Classes";
-					callsub L_Reward, 13069, 50, 100, 35; //Aztoe_Nail
+					callsub L_Reward, 13069, 3, 3, 1; //Aztoe_Nail
 					break;
 				case 11:
 					mes "<<Scarletto Nail[0]>>";
 					mes "MATK + 80. For Physical Melee Attack, cast Stone curse to the target with a certain chance. The chance is affected by Refine Lv.";
 					mes "Dagger / ATK 160 / Weight 50 / Fire Property / Weapon Lv 4 / Required Lv 110 / Socket 0 / for High Swordman/Merchant/Thief Classes";
-					callsub L_Reward, 13070, 50, 100, 35; //Scarletto_Nail
+					callsub L_Reward, 13070, 3, 3, 1; //Scarletto_Nail
 					break;
 				case 12:
 					mes "<<Bloody Cross[0]>>";
 					mes "For Physical Melee Attack, autocast 'Hell Inferno'(Lv 1) with a certain chance. The chance is affected by Refine Lv.";
 					mes "Mace / ATK 170 / Weight 150 / Darkness Property / Weapon Lv 4 / Required Lv 100 / Socket 0 / for High Acolyte Classes";
-					callsub L_Reward, 16017, 50, 100, 40; //Bloody_Cross
+					callsub L_Reward, 16017, 3, 3, 1; //Bloody_Cross
 					break;
 				case 13:
 					mes "<<Catapult[2]>>";
 					mes "Increases ATK % of 'Triangle Shot' equivalent to 2 times Refine Lv, Also SP consumption from the skill increased.";
 					mes "Bow / ATK 150 / Weight 110 / Weapon Lv 4 / Required Lv 100 / Socket 2 / for Shadow Chaser";
-					callsub L_Reward, 18109, 50, 100, 35; //Catapult
+					callsub L_Reward, 18109, 3, 3, 1; //Catapult
 					break;
 				case 14:
 					mes "<<Big CrossBow[2]>>";
 					mes "Increases ATK % of 'Arrow Storm' equivalent to 5 times Refine Lv. Also SP consumption from the skill increased, If the Original AGI points are 120, ASPD + 1.";
 					mes "Bow / ATK 160 / Weight 90 / Weapon Lv 4 / Required Lv 110 / Socket 2 / for Ranger";
-					callsub L_Reward, 18110, 50, 100, 35; //Big_CrossBow
+					callsub L_Reward, 18110, 3, 3, 1; //Big_CrossBow
 					break;
 				case 15:
 					mes "<<Creeper Bow[2]>>";
 					mes "DEX + 1, For Physical Attack, auto-cast 'Fiber Lock'(Lv 1) with a certain chance.";
 					mes "Bow / ATK 150 / Weight 150 / Weapon Lv 3 / Required Lv 120 / Socket 2 / for 3rd Archer Classes";
-					callsub L_Reward, 18111, 50, 100, 35; //Creeper_Bow
+					callsub L_Reward, 18111, 3, 3, 1; //Creeper_Bow
 					break;
 				}
 				if (.@break) {
@@ -674,7 +674,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	mes "[Pudding]";
 	mes "OHHH.. This equipment could accept the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000'.";
 	next;
-	if (countitem(6469) >= 5)
+	if (countitem(6469) >= 3)
 		.@menu_in$[1] = "Dwell the power of '^F2766EWill of Warrior^000000'";
 	else
 		.@menu_in$[1] = "Not enough ^999999'Will of Warrior'^000000";
@@ -711,7 +711,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 		}
 		break;
 	case 3:
-		if (countitem(6470) < 10) {
+		if (countitem(6470) < 3) {
 			mes "[Pudding]";
 			mes "Not enough '^952420Thirst for Blood^000000'. You need to bring 10 '^952420Thirst for Blood^000000'";
 			close;
@@ -726,7 +726,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 		break;
 	case 4:
 		// Enchant Removal
-		if (countitem(6471) < 10) {
+		if (countitem(6471) < 1) {
 			.@menu_clear$[1] = "^999999Not enough 'Chill of the Dead'^000000";
 			.@menu_clear$[2] = "^999999Not enough 'Chill of the Dead'^000000";
 			.@4thzptsodyd = 1;
@@ -756,7 +756,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 			close;
 		case 2:
 		case 3:
-			if (countitem(6471) < 10) {
+			if (countitem(6471) < 1) {
 				mes "[Pudding]";
 				mes "Not enough '^88C6F7Chill of the Dead^000000'. You need to bring 10 '^88C6F7Chill of the Dead^000000'";
 				close;
@@ -769,7 +769,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 			specialeffect EF_BEGINSPELL2;
 			progressbar "ffff00", 2;
 			specialeffect2 EF_FROSTWEAPON;
-			delitem 6471, 10; //Goast_Chill
+			delitem 6471, 1; //Goast_Chill
 
 			// anti-hack
 			if (callfunc("F_IsEquipIDHack", .@part, .@equip_item) || callfunc("F_IsEquipCardHack", .@part, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3]) || callfunc("F_IsEquipRefineHack", .@part, .@refine_count))
@@ -963,9 +963,9 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 		specialeffect EF_BEGINSPELL3;
 		progressbar "ffff00", 2;
 		if (.@socket_type == 3)
-			delitem 6470, 10; //Blood_Thirst
+			delitem 6470, 3; //Blood_Thirst
 		else
-			delitem 6469, 10; //Will_Of_Warrior
+			delitem 6469, 3; //Will_Of_Warrior
 
 		// anti-hack
 		if (callfunc("F_IsEquipIDHack", .@part, .@equip_item) || callfunc("F_IsEquipCardHack", .@part, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3]) || callfunc("F_IsEquipRefineHack", .@part, .@refine_count))
