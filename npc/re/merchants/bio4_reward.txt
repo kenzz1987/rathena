@@ -793,10 +793,7 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 	mes "Before I dwell the power, let me caution you.";
 	next;
 	mes "[Pudding]";
-	mes "While I dwell the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000', the equipment could be not capable of accepting it and will be destroyed as a result..";
-	next;
-	mes "[Pudding]";
-	mes "^9D2628If the equipment is destroyed, you will also lose the cards you inserted in it, and the refine Lv will be removed too.^000000";
+	mes "While I dwell the power of '^F2766EWill of Warrior^000000' or '^952420Thirst for Blood^000000'.";
 	next;
 	mes "[Pudding]";
 	mes "Alright. Do you really wish to dwell the power into the equipment?";
@@ -974,20 +971,12 @@ lhz_cube,233,24,4	script	Sorcerer#Bio4Reward	4_M_UMDANCEKID,{
 		.@equip_card[(.@socket_type-1)] = .@enchant;
 		delequip .@part;
 		
-		if (.@enchant == 0){
-			specialeffect2 EF_SUI_EXPLOSION;
-			emotion ET_OTL;
-			mes "[Pudding]";
-			mes "...Well....the equipment could not accept the power of "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" and it got destroyed.";
-			close;
-		} else {
-			specialeffect2 EF_FIREHIT;
-			getitem2 .@equip_item, 1, 1, .@refine_count, 0, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3];
-			emotion ET_DELIGHT;
-			mes "[Pudding]";
-			mes "Fortunately, the power of "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" has been dwelt well into your equipment...";
-			close;
-		}
+		specialeffect2 EF_FIREHIT;
+		getitem2 .@equip_item, 1, 1, .@refine_count, 0, .@equip_card[0], .@equip_card[1], .@equip_card[2], .@equip_card[3];
+		emotion ET_DELIGHT;
+		mes "[Pudding]";
+		mes "Fortunately, the power of "+((.@socket_type==3)?"'^952420Thirst for Blood^000000'":"'^F2766EWill of Warrior^000000'")+" has been dwelt well into your equipment...";
+		close;
 	}
 	end;
 }
